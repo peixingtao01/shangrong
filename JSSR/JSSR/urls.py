@@ -24,3 +24,4 @@ urlpatterns = [
 urlpatterns += [
     path('desktop/',include('DeskShow.urls')),
 ]
+# 配置好了wsgi的路径

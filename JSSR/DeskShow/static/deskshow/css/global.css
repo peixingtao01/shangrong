@@ -1,0 +1,405 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td, img {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0
+}
+ol, ul {
+	list-style:none
+}
+input {
+	outline: none;
+	border:none;
+}
+html {
+	_overflow-y:scroll;
+}
+/*****！！页面通用css样式定义开始******/
+html, body {
+	min-width: 1200px;
+	font-family: "Microsoft YaHei";
+_width:expression(document.body.clientWidth < 1200 ? "1200px" : "auto");
+}
+/* body的css定义:这里定义页面上下左右边距，页面背景颜色，滚动条颜色样式 */
+body {
+	font-family: "微软雅黑";    /*文字字体定义 */
+	font-size: 14px;    /*文字大小定义 */
+	color: #333; /*文字颜色定义 */
+	min-width:1200px;
+	line-height:30px;
+}
+/* 网站超链接css通用设置 */
+a {
+	text-decoration: none;
+	color:#333
+} /* 链接无下划线,有为underline */
+a:hover {
+	text-decoration: none;
+} /* 鼠标在链接上 */
+.textover {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.fl, .left {
+	float:left;
+}
+.fr, .right {
+	float:right;
+}
+.hide {
+	display: none
+}
+
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	display:block
+}
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}/*清除浮动*/
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow: hidden;
+}/*清除浮动*/
+.clearfix {
+	display:inline-block
+}
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}
+
+/*表格样式定义 */ 
+checkbox {
+	border: 0px;
+}/*选择框样式定义 */
+ul, li {
+	list-style:none
+}
+/*public*/
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+#top_member{width:1250px; height:40px; margin:0 auto; text-align: right; color:#fff}
+#top_member,#top_member *{line-height:40px}
+#top_member a{     color: #fff;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    /* height: 35px; */
+    border-radius: 15px;}
+	#top_member a:hover{ background:#ffa500; color:#095db0;border: 1px solid #ffa500;}
+#top_member #top_login_ok b{ color:#ffa500}
+
+
+
+
+/* 导航 */
+.nav-yz{width: 100%;height: 100px;position: relative;top: 0px;display: none;background-color: rgba(0,0,0,0.64);}
+.nav{width: 100%;height: 140px;background-color: rgba(0,0,0,0.64);z-index: 99998;position: relative;top: 0px;}
+.navWrap{width:1250px;margin: 0 auto; height:100px; border-radius: 6px;position: relative; }
+.fixednav{width:100%;height:100px;position: fixed;z-index: 99999;background-color: rgba(37,43,51,.9);display: none;}
+
+.navWrap .logo{width:170px;height:100px;float: left;}
+.navWrap .logo a{width:170px;height:100px;background: url("logo.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/logo.png*/ left center no-repeat;/*background-size:100%;*/display: block;}
+
+.navWrap .navlist{width:1000px;float: left;overflow: hidden;}
+.navWrap .navlist>li{float: left;height:100px; /*margin-right:39px*/}
+.navWrap .navlist>li:last-child{margin-right:0;}
+.navWrap .navlist>li>a{color:#fff;height:96px;font-size:18px;display: block;line-height: 100px; padding-left:25px; padding-right:25px}
+.navWrap .navlist>li:hover>a{background:#ffa500; border-bottom: 4px solid #5f6581;}
+
+/*.a1{color:#fff;height:96px;font-size:18px;display: block;line-height: 100px;}
+.navWrap .navlist>li:hover>a.a1{background:#ffa500 !important; border-bottom: 4px solid #5f6581;}
+*/
+
+.navWrap .navlist li .bigmenu{position:absolute;top:100px; left: 0; background:rgba(67,96,130,.7);overflow: hidden;display: none;z-index: 44444;padding:40px 80px 50px 80px;}
+.navWrap .navlist li .bigmenu .menulist{width:237.5px; margin:0 auto; position:relative;float: left;}
+.navWrap .navlist li .bigmenu .menulist p{width:100%;text-align: center;color:#fff;font-size:18px;margin-bottom:20px;}
+.navWrap .navlist li .bigmenu .menulist li a{font-size:16px;width:100%;color:#a0a0a0;display: block;text-align: left;line-height: 36px;}
+.navWrap .navlist li .bigmenu .menulist li a:hover{color:#fff;}
+
+.navWrap .navlist li .bigmenu1{position:absolute;top:100px;background:rgba(67,96,130,.7);overflow: hidden;display: none;z-index: 44444;padding:40px 29px 30px; margin-left:-30px}
+.navWrap .navlist li .bigmenu1 .guanlist{margin:0 auto; position:relative;}
+.navWrap .navlist li .bigmenu1 .guanlist li{margin-bottom: 20px;}
+.navWrap .navlist li .bigmenu1 .guanlist li a{font-size: 16px;color:#fff;}
+.navWrap .navlist li .bigmenu1 .guanlist li a:hover{color:#959bb6;}
+
+
+.toplogin{ display:block; float:right; height:96px; line-height:100px; color:#fff; font-size:16px}
+.toplogin a{line-height:100px; color:#fff; font-size:16px}
+
+/*昆岳INECO平台*/
+.ineco{ width:100%; height:645px; margin:0 auto; background: url("bg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg.jpg*/ center bottom no-repeat #f5f5f5; padding-top:77px;}
+.ineco .main{ width:1200px; height:auto; margin:0 auto}
+.ineco .main .lefta{ width:515px; height:auto; display:block; float:left}
+.ineco .main .lefta .titlea{font-size:32px; color:#436082; line-height:58px; }
+.ineco .main .lefta .contenta{font-size:16px; line-height:30px; height:180px; display:block; overflow:hidden; color:#444444; margin-top:15px}
+.ineco .main .lefta .more{width: 130px;height: 35px;display: block;text-align: center;line-height: 35px; border:2px solid #436082;font-size: 16px;color: #436082;border-radius: 30px;margin: 20px 0 0 0;transition: all 0.2s ease-out;}
+.ineco .main .lefta:hover .more{border:2px solid #436082; background:#436082;font-size: 16px;color: #fff;border-radius: 30px;}
+.ineco .main .righta{width:613px; height:358px; display:block; float:right; background:#1f5db0}
+
+.ineco .maina{ width:1200px; height:auto; margin:0 auto; margin-top:60px;}
+
+.proming_aa{ width:100px; height:140px; display:block; text-align:center; float:left; margin:0 30px}
+.proming_aa .topimg{width:100px; height:100px; margin:0 auto; display:block; overflow:hidden; }
+.proming_aa .topimg img{ width:100px; height:100px;transition: all 0.3s linear 0s;}
+.proming_aa p{ width:100%; height:40px; line-height:40px;font-size:16px; text-overflow:ellipsis;white-space:nowrap; display:block; overflow:hidden; margin:5px auto; color:#365075}
+
+
+
+
+
+
+
+
+.ineco .inecoa .main .conta{ margin-top:25px}
+.ineco .inecoa .main .conta ul li{ float:left; margin-right:62px}
+.ineco .inecoa .main .conta ul li:last-child{margin-right:0;}
+.childc{ width:157px; height:200px; display:block; text-align:center; line-height:43px; font-size:16px; color:#333333}
+.childc img{ width:157px; height:157px;transition: all 0.3s linear 0s;}
+/*.childc:hover img{transform:rotate(360deg);}*/
+
+/*解决方案1*/
+.in_newsb{width:100%; height:693px; background: url("bg1.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg1.jpg*/ center -1534px no-repeat;overflow: hidden; padding-top:74px;}
+.in_newsb .title{color:#fff;font-size:32px; line-height:40px;text-align: center; margin-bottom:39px;}
+.in_newsb .content{width: 1200px; height:550px; margin: 0 auto;}
+
+.in_newsb .news_topb{width: 1200px; height:50px; margin:0 auto;*text-align:center}
+.in_newsb .news_topb ul{display:table;margin-left:auto;margin-right:auto;}
+.in_newsb .news_topb li{list-style:none;float:left;*float:none;*display:inline;*zoom:1; margin:0 94px;width:241px; height:50px; background:url("bg1.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg1.png*/ no-repeat 0 0; text-indent:108px;line-height:50px; font-size: 20px; color: #fff;}
+.in_newsb .news_topb li:first-child{margin-left:0;}
+.in_newsb .news_topb li:last-child{margin-right:0;}
+.in_newsb .news_topb li a{color: #fff;font-size:20px; line-height:50px}
+
+.in_newsb .news_topb li:hover,.in_newsb .news_topb li.on{background:url("bg2.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg2.png*/ no-repeat 0 0; color:#ffbf74}
+.in_newsb .news_topb li:hover a,.in_newsb .news_topb li.on a{color: #ffbf74;}
+.in_newsb .news_boxb{ width:1200px; height:auto; margin:60px auto 0}
+.in_newsb .news_boxb ul{display: none;}
+.in_newsb .news_boxb ul.on{display: block;}
+.in_newsb .news_boxb li {display:block; float:left; margin-left:97px;}
+.in_newsb .news_boxb li:first-child{margin-left:0;}
+
+
+
+
+
+/* 解决方案2*/
+.wlBox{width:100%; height:767px; background: url("bg1.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg1.jpg*/ left 0 no-repeat;overflow: hidden;}
+.wlBox .wbtit{color:#fff;font-size:32px; line-height:40px;text-align: center; margin-bottom:30px;margin-top: 70px;}
+.wlBox .wlBox-box{width: 1200px; height:550px; margin: 0 auto;}
+
+.wlBox .wlBox-box .wlBox-box-left{width: 1200px; height:50px; margin:0 auto;*text-align:center}
+.wlBox .wlBox-box .wlBox-box-left ul{display:table;margin-left:auto;margin-right:auto;}
+.wlBox .wlBox-box .wlBox-box-left ul .wlBox-box-left-li{list-style:none;float:left;*float:none;*display:inline;*zoom:1; margin:0 94px;width:241px; height:50px; background:url("bg1.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg1.png*/ no-repeat 0 0; text-indent:108px;line-height:50px; font-size: 20px; color: #fff;}
+
+.wlBox .wlBox-box .wlBox-box-left ul .wlBox-box-left-li:first-child{margin-left:0;}
+.wlBox .wlBox-box .wlBox-box-left ul .wlBox-box-left-li:last-child{margin-right:0;}
+
+.bg{
+	background:url("bg2.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg2.png*/ no-repeat 0 0;}
+
+.wlBox .wlBox-box .wlBox-box-right{ width:1200px; height:435px; margin:0 auto; margin-top:55px; display:block; overflow:hidden}
+.wlcont{width:1200px; height: 435px;margin:0 auto;}
+.wlcont ul li{display:block; float:left; margin-left:97px;}
+.wlcont ul li:first-child{margin-left:0;}
+
+.childb{ width:335px; height:435px; display:block;background:#fff}
+.childb .topimg{ width:335px; height:209px; display: block; overflow:hidden;}
+.childb .topimg img{ width:335px; height:209px;transform: scale(1);transition: all 1s ease-out;}
+.childb .topimg:hover img{transform: scale(1.2);}
+.childb .txt{ padding:18px}
+.childb .txt p{width:100%;line-height:30px;font-size:20px; color:#333; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block; margin:5px auto}
+.childb .txt span{ font-size:15px; line-height:28px; height:84px; display:block; overflow:hidden; color:#666666}
+.childb .txt .more{
+    width: 130px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #375176;
+    font-size: 16px;
+    color: #375176;
+    border-radius: 30px;
+    margin: 20px 0 0 0;
+    transition: all 0.2s ease-out;
+}
+.childb:hover .txt .more{background:#375176; color:#fff}
+
+
+/* 关于我们 */
+.about{ width:100%; height:487px; margin:0 auto;background: url("bg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg.jpg*/ center bottom no-repeat #f5f5f5; padding-top:100px; padding-bottom:138px}
+.about .main{ width:1200px; height:auto; margin:0 auto;}
+.about .main .leftfeature{ width:734px; height:487px; display:block; float:left; margin-top:52px}
+.about .main .leftfeature ul li{ float:left; border-right:1px dashed #bbc3ce; border-bottom:1px dashed #bbc3ce}
+
+
+.childaaa{ width:164px; height:202px; display:block; text-align:center; padding:18px 40px 0}
+.childaaa img{transition: all 0.3s linear 0s;}
+.childaaa p{ font-size:20px; color:#365075; line-height:30px; margin:5px auto}
+.childaaa span{ font-size:15px; line-height:25px; height:50px; display:block; overflow:hidden; color:#365075}
+/*.childaaa:hover img{transform:rotate(360deg);}*/
+
+.about .main .righttxt{ width:386px; height:auto; display:block; float:right; margin-top:27px}
+.about .main .righttxt .titlea{ height:77px; background:url("dec.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/dec.jpg*/ no-repeat left bottom; line-height:74px; font-size:32px; color:#436082}
+.about .main .righttxt .titlea span{line-height:74px; font-size:19px; color:#436082; font-family:Arial, Helvetica, sans-serif; margin-left:10px}
+.about .main .righttxt .conta{ margin-top:25px; width:386px; height:110px; display:block; overflow:hidden;}
+.about .main .righttxt .conta img{width:386px; height:110px;transform: scale(1);transition: all 1s ease-out;}
+.about .main .righttxt:hover .conta img{transform: scale(1.2);}
+.about .main .righttxt .contb{ font-size:16px !important; line-height:32px !important; height:192px; display:block; overflow:hidden}
+.about .main .righttxt .more{ width:130px; height:35px; border:2px solid #436082; display:block; text-align:center; line-height:35px; font-size:16px; color:#436082;border-radius:30px;margin:25px 0 0 260px;transition: all 0.2s ease-out;}
+.about .main .righttxt .more:hover{/*transform: translateY(-10px); */background:#436082; color:#fff; font-size:16px}
+
+
+
+/* 新闻资讯 */
+.newContBox{width:100%;margin:0 auto;overflow: hidden;background: #436082;padding:0 0 80px;}
+.newContBox .newCont{width:1200px;margin:0 auto;overflow: hidden;}
+.newContBox .newCont .newtop{width:1200px;margin:0 auto 35px;overflow: hidden;}
+.newCont .newtop .newtit{float: left;}
+.newCont .newtop .newtit .ntit{color:#fff;font-size:32px;margin-bottom:10px;}
+.newCont .newtop .newtit .ntit a{color:#fff;font-size:32px;}
+.newCont .newtop .newtit .ntiteng{color:#fff;font-size:19px;}
+.newCont .newtop .listnew{float: right;}
+.newCont .newtop .listnew li{float: left;margin-right:30px;color:#fff;font-size:16px;padding-bottom:10px;cursor: pointer;}
+.newCont .newtop .listnew li:last-child{margin-right:0;}
+.newCont .newtop .listnew li:hover{border-bottom: 2px solid #fff;}
+
+.newCont .newctext{width:100%;overflow:hidden;display: none;}
+
+.newCont .newctext.newshown{display: block;}
+.newCont .newctext .ncontl{width:506px; height:521px; display:block;overflow:hidden;float: left;background: #fff;padding:12px;}
+.newCont .newctext .ncontl .ncimg{width:506px;height:327px; display:block; overflow:hidden;margin:0 auto 10px;}
+.newCont .newctext .ncontl .ncimg img{max-width:100%; height:327px;transform: scale(1);transition: all 1s ease-out;}
+.newCont .newctext .ncontl:hover .ncimg img{transform: scale(1.2);}
+.newCont .newctext .ncontl .nctit{color:#3c3a47;font-size:20px;margin-bottom:10px; display:block; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.newCont .newctext .ncontl .ncdate{ background:url("date.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/date.png*/ 0 center no-repeat; text-indent:25px;color:#1f5db0;font-size:15px;margin-bottom:10px;}
+.newCont .newctext .ncontl .nctext{color:#8a8a8a !important;font-size:15px !important;line-height:24px !important; height:48px; display:block; overflow:hidden}
+.newCont .newctext .ncontl .ncnexta{width:50px;height:40px;display: block;float: right;}
+.newCont .newctext .ncontl .ncnexta img{line-height: 40px;display: block;float: right;}
+
+.newCont .newctext .ncontr{width:620px; height:auto; display:block;overflow:hidden;float: right;}
+.newCont .newctext .ncontr ul{width:100%;overflow:hidden;}
+.newCont .newctext .ncontr ul li{width:100%;overflow:hidden; padding-top:24px; padding-bottom:24px; border-bottom:1px dotted #c8d2ee}
+.newCont .newctext .ncontr ul li:first-child{ padding-top:0}
+/*.newCont .newctext .ncontr ul li:last-child{ padding-bottom:0}*/
+
+.newCont .newctext .ncontr ul li a{width:100%;overflow:hidden;display: block;background: url("mnarr.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/mnarr.png*/ right bottom no-repeat;}
+.newCont .newctext .ncontr ul li a .nrtit{width:96%;color:#fff;font-size:20px;margin-bottom:15px;background: url("bdot.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bdot.png*/ left 12px no-repeat;overflow: hidden;height:30px;padding-left:4%;}
+.newCont .newctext .ncontr ul li a .nrtit .stit{width:80%;float: left;line-height: 30px;}
+.newCont .newctext .ncontr ul li a .nrtit .stit:hover{color:#4e89f6;}
+.newCont .newctext .ncontr ul li a .nrtit .date{width:18%;float: right;text-align: right;color:#9fa8c1;font-size:15px;line-height: 30px;}
+.newCont .newctext .ncontr ul li a .nrtext{width:80%;color:#c8d2ee;font-size:15px;line-height:24px; height:48px; display:block; overflow:hidden}
+
+/*营销网络*/
+.network{ width:100%; height:1017px; margin:0 auto; background:url("network.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/network.jpg*/ center bottom no-repeat; position:relative}
+.network .title{ display:block; text-align:center; font-size:32px; color:#fff; line-height:45px; padding-top:100px}
+/*网站底部*/
+.foot{ width:100%; height:auto; margin:0 auto; background:#000c20; padding-top:52px; padding-bottom:52px; border-bottom:1px solid #4d586a}
+.foot .main{ width:1200px; height:auto; margin:0 auto}
+.foot .main .leftdh{ width:835px; height:auto; display:block; float:left}
+.foot .main .leftdh .title{ height:44px; border-bottom:1px solid #4d586a}
+.foot .main .leftdh .title p{ display:block; float:left; padding-left:0; padding-right:10px; height:43px; line-height:43px; border-bottom:2px solid #4d586a; color:#525d6f; font-size:20px;}
+.foot .main .leftdh .cont{margin-top:24px;font-size:14px !important; line-height:32px !important; color:#525d6f !important}
+
+.foot .main .leftdh .cont ul li{ float:left; width:228px; height:auto;}
+
+.foot .main .leftdh .cont ul li:last-child{ width:379px; height:auto; display:block; float:right;}
+.foot .main .leftdh .cont ul li:last-child a{ width:50%;height:32px; display: block; overflow:hidden;font-size:14px; color:#525d6f; line-height:32px; float:left}
+
+.oneproa{ width:100%; height:50px; display: block; overflow:hidden;font-size:16px; color:#525d6f; line-height:50px;}
+.oneprob{width:100%; height:32px; display: block; overflow:hidden;font-size:14px; color:#525d6f; line-height:32px;}
+
+.foot .main .rightlx{ width:285px; height:auto; display:block; float:right}
+.foot .main .rightlx .title{ height:44px; border-bottom:1px solid #4d586a}
+.foot .main .rightlx .title p{ display:block; float:left; padding-left:0; padding-right:10px; height:43px; line-height:43px; border-bottom:2px solid #4d586a; color:#525d6f; font-size:20px;}
+.foot .main .rightlx .cont{ margin-top:24px;font-size:14px !important; line-height:32px !important; color:#525d6f !important}
+
+.footer{ width:100%; height:52px; margin:0 auto; background:#000c20;*text-align:center}
+.footer ul{display:table;margin-left:auto;margin-right:auto;}
+.footer ul li{list-style:none;float:left;*float:none;*display:inline;*zoom:1; padding:0 84px; line-height:52px; font-size:14px; color:#525d6f}
+.footer ul li a{line-height:52px;font-size:14px;color:#525d6f}
+
+.childccc{ width:280px; height:415px; display:block;background:#f7f8ff; float:left; margin-right:22px; margin-bottom:22px;}
+.childccc .topimg{ width:280px; height:175px; display: block; overflow:hidden;}
+.childccc .topimg img{ width:280px; height:175px;transform: scale(1);transition: all 1s ease-out;}
+.childccc .topimg:hover img{transform: scale(1.2);}
+.childccc .txt{ padding:18px}
+.childccc .txt p{width:100%;line-height:30px;font-size:20px; color:#333; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block; margin:5px auto}
+.childccc .txt span{ font-size:15px; line-height:28px; height:84px; display:block; overflow:hidden; color:#666666}
+.childccc .txt .more{width:130px; height:35px; border:2px solid #365075; display:block; text-align:center; line-height:35px; background:#f7f8ff; font-size:16px; color:#365075;border-radius:30px;margin:20px 0 0 0;transition: all 0.2s ease-out;}
+.childccc:hover .txt .more{ background:#365075; color:#fff}
+
+.ptjg{ width:1200px; height:auto; margin:0 auto}
+
+.section3{padding:10px;border:1px dotted #446181; display:block; text-align:center;border-radius:10px;}
+.section3 .titlea{ font-size:16px; color:#446181; font-weight:bold;}
+.section3 .a1{ width:100%; height:auto; margin:0 auto 15px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; padding:4px 0}
+.section3 .a2{width: 29%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 5px 5px 5px 7px;
+    background: #ffa500;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px 0;}
+.section3 .a3{ width: 14.7%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 5px 3px 5px 5px;
+    background: #ffa500;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px 0;}
+.section3 p{ width:48%; height:auto; display:block; float:left; margin:5px 5px 5px 7px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; padding:4px 0}
+.section3 p a{color:#ffa500;}
+
+.section3 .a4{ width:97.5%; height: auto; margin:0 auto; display:block;margin:5px auto; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; }
+.section3 .a5{    width: 18.48%;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    float: left;
+    margin: 5px 5px 5px 6.5px;
+    background: #446181;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 10px;}
+
+
+.section3a{ display:block; float:left; width:60%;padding:10px 1px 10px 1px;border:1px dotted #446181; text-align:center;border-radius:10px;}
+.section3a .titlea{ font-size:16px; color:#446181; font-weight:bold; margin-bottom:10px}
+.section3a .a6{width:18%; height:auto; display:block; float:left; margin:5px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; padding:4px 0}
+
+
+
+.section3b{ display:block; float:right; width:35%;padding:10px 7px 10px 10px;border:1px dotted #446181; text-align:center;border-radius:10px;}
+.section3b .titlea{ font-size:16px; color:#446181; font-weight:bold; margin-bottom:10px}
+.section3b .a7{width:30%; height:auto; display:block; float:left; margin:5px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; padding:4px 0}
+
+.a8{ width:94.5%; height:35px; margin:0 auto; line-height:35px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px;}
+.a9{width:15.5%; height:35px; line-height:35px; display:block; float:left; margin:5px; background:#446181; color:#fff; display:block; text-align:center;border-radius:10px; }

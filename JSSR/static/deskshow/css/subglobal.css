@@ -1,0 +1,1400 @@
+@charset "utf-8";
+/*子页面大图*/
+.neibanner {
+	width:100%;
+	height:480px;
+	margin:0 auto;
+	background:#f1f1f1;
+}
+/* 新闻列表页面 */
+.newList{width:1200px;margin:0 auto 30px;overflow: hidden; margin-top:60px}
+.newList li{width:285px;height:213px;overflow: hidden;float: left;position: relative;border-radius: 6px;margin-right:15px;}
+.newList li:last-child{margin-right:0px;}
+.newList li img{width:120%;display: block;}
+.newList li .funtxt{width:88%;background: url("fbgbg.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/fbgbg.png*/ 0 0 repeat;color:#fff;font-size: 16px;position: absolute;bottom:0;left:0;padding:15px 6%;line-height: 22px;}
+.newsBox{width:1200px;overflow: hidden;margin:0 auto;}
+.newsBox .newboxL{width:920px;overflow: hidden;float: left;}
+.newsBox .newboxL .newlistNav{width:100%;overflow: hidden;border-bottom: 1px solid #ddd;margin-bottom:30px;}
+.newsBox .newboxL .newlistNav li{float: left;margin-right:60px;color:#666;font-size: 16px;padding-bottom:20px;border-bottom: 1px solid #fff;cursor: pointer;}
+.newsBox .newboxL .newlistNav li.current{color:#446181;border-bottom: 1px solid #446181;}
+.NEWcont{width:100%;overflow: hidden;display: none;}
+.NEWcont.showwn{display: block;}
+.NEWcont .bigcont{width:100%;overflow:hidden;background: #f6f6f6;margin-bottom:24px;}
+.NEWcont .bigcont>a{width:100%;overflow:hidden;display:block;}
+.NEWcont .bigcont .bigimg{width:480px;float: left;height: 261px;}
+.NEWcont .bigcont .bigimg img{height:100%;width:100%;display: block;}
+.NEWcont .bigcont .bigtxt{width:380px;float: right;padding:30px 30px 0 30px;}
+.NEWcont .bigcont .bigtxt .tit{color:#446181;font-size: 22px;margin-bottom:30px;line-height: 1.5em; display:block; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.NEWcont .bigcont .bigtxt .tit:hover{color:#051cc4;}
+.NEWcont .bigcont .bigtxt .cont{color:#666;font-size: 14px;margin-bottom:20px;text-align: justify;line-height: 22px; height:110px; display:block; overflow:hidden}
+.NEWcont .bigcont .bigtxt .datee{color:#999;font-size: 14px;}
+.NEWcont .bigcont .bigtxt .datee span{margin-right:40px;}
+.NEWcont .Listnews{width:100%;overflow:hidden;}
+.NEWcont .Listnews .listbox{border-top: 1px solid #ddd;padding:24px 0;}
+.NEWcont .Listnews .listbox>a{width:100%;overflow:hidden;display:block;}
+.NEWcont .Listnews .listbox .bigimg{width:280px;float: left;height: 192px;}
+.NEWcont .Listnews .listbox .bigimg img{width:100%;display: block;height: 100%;}
+.NEWcont .Listnews .listbox .bigtxt{width:620px;float: right;}
+.NEWcont .Listnews .listbox .bigtxt .tit{color:#333;font-size: 22px;line-height: 1.5em;display:block; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.NEWcont .Listnews .listbox .bigtxt .tit:hover{color:#6576f5;}
+.NEWcont .Listnews .listbox .bigtxt .cont{color:#666;font-size: 14px;margin:20px 0;text-align: justify;line-height: 22px; height:88px; display:block; overflow:hidden}
+.NEWcont .Listnews .listbox .bigtxt .datee{color:#999;font-size: 14px;}
+.NEWcont .Listnews .listbox .bigtxt .datee span{margin-right:40px;}
+.NEWcont .more{width:99%;height:50px;margin:60px auto;border-radius: 6px;border: 1px solid #436181;color:#436181;text-align: center;line-height: 50px;display: block;}
+.NEWcont .more:hover{color:#fff;background: #446181;}
+.newsBox .newboxR{width:216px;overflow: hidden;float: right;margin:42px 10px 10px 10px;box-shadow: 0 0 5px #ddd;padding:25px 16px;}
+.newsBox .newboxR .retit{color:#446181;font-size: 16px;text-align: center;padding-bottom:24px;border-bottom: 1px dashed #ebebeb; font-weight:bold}
+.newsBox .newboxR .relist{width:100%;overflow: hidden;}
+.newsBox .newboxR .relist li{margin-top:24px;background: url("ndot.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ndot.png*/ left 7px no-repeat;padding-left:20px;}
+.newsBox .newboxR .relist li a{display: block;overflow: hidden;}
+.newsBox .newboxR .relist li .remen{color:#333;font-size:14px;line-height:22px;margin-bottom:8px;}
+.newsBox .newboxR .relist li .remen:hover{color:#6576f5;}
+.newsBox .newboxR .relist li .redate{color:#999;font-size: 12px;}
+/* 新闻详情页页面 */
+.breadbox{width:1200px;margin:30px auto 40px;overflow: hidden;}
+.breadbox li{float:left;color:#999;font-size:14px; background:url("bg7.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg7.png*/ 0 center no-repeat; text-indent:20px}
+.breadbox li a{color:#999;margin:0 3px;}
+.breadbox li a:hover{color:#6576f5;margin:0 3px;}
+.NEWcontboxa{width:100%;overflow: hidden;}
+.NEWcontboxa .contcont{width:100%;overflow: hidden;}
+.NEWcontboxa .contcont img{ max-width:100%; height:auto}
+
+.NEWcontboxa .contcont .ctit{color:#333;font-size: 1.6em;margin-bottom:20px;}
+.NEWcontboxa .contcont .cmtit{color:#666;font-size: 14px;margin-bottom:10px;}
+.NEWcontboxa .contcont .cdate{color:#999;font-size: 14px;margin-bottom:30px;}
+.NEWcontboxa .contcont .ctxt{color:#666;font-size: 14px;margin-bottom:10px;text-align: justify;line-height: 1.7em;}
+.NEWcontboxa .contcont .ctit2{color:#1164f2;font-size: 1.25em;margin:20px 0;}
+.NEWcontboxa .contcont .cimg{width:100%;margin:20px auto;}
+.NEWcontboxa .contcont .cimg img{width:100%;display: block;}
+.NEWcontboxa .back{width:99%;height:50px;margin:20px auto;border-radius: 6px;border: 1px solid #6576f5;color:#6576f5;text-align: center;line-height: 50px;display: block;}
+.NEWcontboxa .back:hover{color:#fff;background: #6576f5;}
+.newsBox .newboxR .relist2 li{background: none;padding:0;}
+.newsBox .newboxR .relist li .reimg{width:100%;margin:0 auto 10px;background: none;}
+.newsBox .newboxR .relist li .reimg img{width:100%;display: block;}
+
+/* 内容区 */
+.contWrap{width:100%;margin:0 auto;overflow: hidden; margin:60px auto}
+.jiantit{color:#5b5b5b;font-size: 32px;text-align: center;margin-bottom:20px; font-family:"微软雅黑"}
+.jiansubtit{color:#446181;font-size:22px;text-align: center;margin-bottom:20px; font-family:"微软雅黑"}
+.titeng{color:#333;font-size:18px;text-align: center;margin-bottom:35px; font-family:Arial, Helvetica, sans-serif}
+.richeng{width:1100px;margin:0 auto;border-bottom: 1px solid #ddd;margin-bottom:30px;}
+
+
+/* 联系我们页面 */
+.Contactbox{width:1200px; height:auto;margin:0 auto;overflow: hidden;}
+.tactlist{width:100%;overflow: hidden;margin-bottom:60px;}
+
+.tactlist li{width:260px;height:100px;overflow: hidden;margin:20px;float: left;box-shadow: 0px 0px 20px #eff0f3;padding:170px 0 0 0;}
+.tactlist li.li1{ background:url("ticon1.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon1.png*/ center 70px no-repeat #f4f4f4}
+.tactlist li.li2{ background:url("ticon2.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon2.png*/ center 70px no-repeat #f4f4f4}
+.tactlist li.li3{ background:url("ticon3.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon3.png*/ center 70px no-repeat #f4f4f4}
+.tactlist li.li4{ background:url("ticon4.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon4.png*/ center 70px no-repeat #f4f4f4}
+.tactlist li .ttext{width:90%;font-size:17px;color:#5f6581;text-align: center;margin:0 auto;line-height:25px;}
+
+
+.tactlist li:hover{box-shadow: 0px 0px 20px #d9dbe0;}
+.tactlist li:hover .ttext{color:#fff;}
+.tactlist li:hover.li1{ background:url("ticon11.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon11.png*/ center 70px no-repeat #5f6581}
+.tactlist li:hover.li2{ background:url("ticon22.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon22.png*/ center 70px no-repeat #5f6581}
+.tactlist li:hover.li3{ background:url("ticon33.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon33.png*/ center 70px no-repeat #5f6581}
+.tactlist li:hover.li4{ background:url("ticon44.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ticon44.png*/ center 70px no-repeat #5f6581}
+
+
+
+.biaoWrap{width:100%;overflow: hidden;background: #f7f8ff;padding:60px 0;}
+.biaoWrap .jiantit{color:#5f6581;}
+.biaoWrap .titeng{color:#5f6581;}
+.biaoBox{width:700px; margin:0 auto;overflow: hidden;}
+.biaoBox .INFObox{width:100%; margin:0 auto;overflow: hidden;}
+.biaoBox tr{width:100%;margin:0 auto 20px;display: block;overflow: hidden;}
+.biaoBox tr td{width:42%;padding-left:6px;background: none;color:#fff;font-family:"微软雅黑";float: left;margin:0 3% 0 3%;}
+.biaoBox tr td input{width:100%; height:30px; padding-left:6px;border: 1px solid #999;background: none;color:#5f6581;font-family:"微软雅黑";display: block;}
+.biaoBox tr td input::-webkit-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr td input::-moz-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr td input::-ms-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr td textarea{padding:10px 2%;width:97%;font-size: 14px;line-height: 24px;border: 1px solid #999;background: none;color:#5f6581;font-family:"微软雅黑";height:120px;}
+.biaoBox tr td textarea::-webkit-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr td textarea::-moz-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr td textarea::-ms-input-placeholder{color:#9598b1;text-transform: uppercase;}
+.biaoBox tr .text input{width:140px;height:40px;margin:20px auto 0; background:#768faa;color:#fff;font-size: 14px;border:0px;cursor:pointer;border-radius:20px;line-height: 40px;display: block;}
+.biaoBox tr .text input:hover{background:#446181;border:0px;}
+
+
+/*公司简介*/
+.aboutbox{ width:1050px; height:auto; margin:0 auto; background: url("jianbg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/jianbg.jpg*/ center center no-repeat; padding:35px 75px; color:#fff; font-size:16px; line-height:30px;}
+
+.aboutboxa{ width:100%; height:auto; margin:0 auto; background:#f7f8ff; margin-top:85px; padding-top:50px; padding-bottom:50px;}
+.aboutboxa ul{ width:1200px; height: auto; margin:0 auto}
+.aboutboxa ul li{ float:left; margin-right:10px;}
+.aboutboxa ul li:last-child{margin-right:0;}
+
+.aboutboxa1{ width:190px; height:180px; display:block; float:left; text-align:center}
+.aboutboxa1 img{transition: all 0.3s linear 0s;}
+/*.aboutboxa1:hover img{transform:rotate(360deg);}*/
+.aboutboxa1 p{font-size:18px; color:#333333; line-height:30px; margin:10px auto}
+.aboutboxa1 span{ font-size:16px; line-height:25px; color:#666666}
+
+.aboutboxb{ width:1200px; height:auto; margin:0 auto;font-size:16px; line-height:30px;}
+
+.aboutboxc{ width:100%; height:auto; margin:0 auto; background:#f7f8ff; margin-top:85px; padding-top:50px; padding-bottom:50px;}
+.aboutboxc .txta{ width:1200px; height:auto; margin:0 auto 30px; font-size:16px; line-height:30px}
+
+.fulist{width:1200px; height: auto; margin:0 auto;overflow: hidden;}
+.fulist li{width:348px;height:510px;overflow: hidden;margin:10px 25px 40px;float: left;background: #f4f8ff;border: 1px solid #ddd;position: relative;}
+.fulist li a{width:100%;display: block;overflow: hidden;}
+.fulist li:hover{box-shadow: 0px 0px 10px #446181;}
+.fulist li .ticon{width:100%;overflow: hidden;margin-bottom:20px;}
+.fulist li .ticon img{width:100%;display: block;}
+.fulist li .ftit{color:#333;font-size: 18px;margin:0 auto;text-align: center;line-height:30px;}
+.fulist li .ftiteng{color:#b9b8b8;font-size: 14px;margin:0 auto 20px;text-align: center;text-transform: uppercase;}
+.fulist li .ttext{color:#666;font-size:14px;margin:0 auto 30px;width:86%;text-align: justify;line-height: 22px; height:88px; display:block; overflow:hidden;}
+.fulist li .xiang{color:#446181;font-size:14px;margin:0 auto;width:50%;text-align: center;line-height: 34px;border: 1px solid #446181;display: block;position: absolute;bottom:30px; left:25%;border-radius: 17px;}
+.fulist li:hover .xiang{color:#fff;background: #446181;}
+
+/*子页面位置*/
+.postion {
+	width:100%;
+	height:54px;
+	margin:0 auto; background:#f5f5f5
+}
+.postion ul {
+	width:1200px;
+	height:54px;
+	margin:0 auto
+}
+.postion ul li {
+	background: url("bg7.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg7.png*/ 0 center no-repeat;
+	padding-left: 25px;
+	color: #555555;
+	line-height: 54px;
+	font-size: 14px;
+}
+.postion ul li a {
+	line-height:54px;
+	color:#555555;
+	font-size:14px;
+}
+
+
+
+
+/*应用案例顶部分类*/
+.subnav {width:100%; height:70px; margin:0 auto; background:#efefef;*text-align:center;}
+.subnav ul {display:table;margin-left:auto;margin-right:auto; padding-top:15px}
+.subnav ul li{list-style:none;float:left;*float:none;*display:inline;*zoom:1;}
+.subnav ul li a {
+	padding:8px 35px; margin:0 6px;
+	line-height:40px;
+	font-size:18px;
+	color:#333; border-radius: 12px;
+}
+
+.subnav ul li a.on, .subnav ul li a:hover{background:#264065;
+	color:#fff;
+	line-height:40px;
+	font-size:18px
+	}
+/*子页面样式*/
+.mainframe {
+	width:1200px; height:auto;
+	margin:60px auto 0;
+}
+.mainframe .title {
+	height:82px;
+	display:block;
+	text-align:center;
+	line-height:80px;
+	margin-bottom:40px;
+	background:url("subdec.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/subdec.jpg*/ center bottom no-repeat;
+	font-size:32px;
+	color:#333
+}
+.mainframe .content {
+	width:1200px;
+	min-height:500px;
+	margin:30px auto;
+}
+
+.mainframe .content1 {
+	width:1200px;
+	min-height:500px;
+	margin:30px auto;
+}
+.mainframe .content1 p {
+	margin-bottom:10px;
+	font-size:16px;
+	line-height:25px;
+	color:#666
+}
+
+
+/*子页面管理团队样式用*/
+.childaa {
+	width:570px;
+	height:216px;
+	display:block;
+	float:left;
+	margin:0 15px;
+	padding-bottom:30px;
+}
+.childaa .leftimg {
+	display:block;
+	float:left;
+	width:280px;
+	height:210px;
+	overflow:hidden;
+	padding:2px;
+	border:1px solid #dcdcdc
+}
+.childaa .leftimg img {
+	width:280px;
+	height:210px;
+	transform: scale(1);
+	transition: all 1s ease-out;
+}
+.childaa .righttxt {
+	width:260px;
+	height: auto;
+	display:block;
+	float:right; padding-top:65px;
+}
+.childaa .righttxt h1 {
+	font-size:22px;
+	font-weight:100;
+	line-height:32px;
+	margin-bottom:20px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	display:block;
+	overflow:hidden; color:#333
+}
+.childaa .righttxt span {
+	font-size:18px !important;
+	line-height:32px !important;
+	color:#666 !important;
+}
+/*.childaa .righttxt i {
+	font-style:normal;
+	width:120px;
+	height:35px;
+	display:block;
+	text-align:center;
+	line-height:35px;
+	background:#dfdfdf;
+	margin-top:15px;
+	border-radius:15px;
+	transition: all 0.3s linear 0s;
+}
+*/.childaa:hover .leftimg img {
+	transform: scale(1.2);
+}
+/*.childaa:hover .righttxt i {
+	line-height:35px;
+	background:#f08200;
+	border-radius:15px;
+	color:#fff
+}*/
+
+
+.navigation {
+	width:100%;
+	height:65px;
+	border-bottom:1px solid #dcdcdc;
+	margin:0 auto
+}
+.navigation ul {
+	width:1200px;
+	height:65px;
+	margin:0 auto
+}
+.navigation ul li {
+	line-height:65px;
+	font-size:15px;
+	color:#666;
+	background:url("home.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/home.png*/ 0 center no-repeat;
+	text-indent:24px;
+}
+.navigation ul li a {
+	line-height:65px;
+	font-size:15px;
+	color:#666
+}
+/*子页面新闻里面样式用*/
+.childcc {
+	height:138px;
+	margin:0 auto;
+	padding:30px 0;
+	border-bottom:1px solid #dfdfdf
+}
+.childcc .lefttime {
+	width:100px;
+	height:138px;
+	display:block;
+	margin-right:40px;
+	float:left;
+	text-align:center;
+	border:1px solid #dfdfdf;
+	line-height:35px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666
+}
+.childcc .lefttime p {
+	width:50%;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	border-bottom:1px solid #dfdfdf;
+	padding-top:27px;
+	font-size:40px;
+	color:#888
+}
+.childcc .righttxt {
+	width:820px;
+	height:140px;
+	display:block;
+	float:left;
+}
+.childcc .righttxt p {
+	width:100%;
+	height:30px;
+	line-height:30px;
+	margin-bottom:10px;
+	font-size:18px;
+	color:#333;
+	font-weight:100;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block
+}
+.childcc .righttxt p a {
+	font-size:18px;
+	color:#333;
+	line-height:30px;
+}
+.childcc .righttxt span {
+	font-size:14px;
+	line-height:24px;
+	color:#666;
+	height:48px;
+	display:block;
+	overflow:hidden;
+}
+.childcc .righttxt .more {
+	width:120px;
+	height:30px;
+	display:block;
+	text-align:center;
+	background:#efefef;
+	line-height:30px;
+	color:#666;
+	margin-top:10px;
+	border-radius:20px;
+	transition: all 0.3s linear 0s;
+}
+.childcc .rightimg {
+	width:186px;
+	height:140px;
+	display:block;
+	text-align:center;
+	float:right;
+	overflow:hidden
+}
+.childcc .rightimg img {
+	max-width:100%;
+	height:140px;
+	transform: scale(1);
+	transition: all 1s ease-out;
+}
+.childcc:hover .lefttime {
+	width:100px;
+	height:138px;
+	display:block;
+	margin-right:40px;
+	float:left;
+	text-align:center;
+	border:1px solid #f08200;
+	line-height:35px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666
+}
+.childcc:hover .rightimg img {
+	transform: scale(1.2);
+}
+.childcc:hover .righttxt p a {
+	font-size:18px;
+	color:#f08200;
+	line-height:30px;
+}
+.childcc:hover .righttxt .more {
+	background:#f08200;
+	color:#fff
+}
+/*子页面产品展示*/
+.proming_c {
+	width:275px;
+	height:256px;
+	display:block;
+	text-align:center;
+	line-height:50px;
+	float:left;
+	margin:11px;
+	border:1px solid #dfdfdf;/*box-shadow: 0 0 10px #e4e2e2; */
+	background:#fff;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	color:#333
+}
+.proming_c .topimg {
+	width:275px;
+	height:206px;
+	display:block;
+	overflow:hidden
+}
+.proming_c .topimg img {
+	max-width:100%;
+	height:206px;
+	transform: scale(1);
+	transition: all 1s ease-out;
+}
+.proming_c:hover {
+	border:1px solid #f08200;
+	background:#fff;
+	color:#f08200
+}
+.proming_c:hover .topimg img {
+	transform: scale(1.2);
+}
+
+/*翻页*/
+.page {
+	width:100%;
+	margin:10px auto;
+	line-height:30px;
+	text-align:right; color:#333
+}
+.page span {
+	display:inline-block;
+	padding:0 10px 0 0; color:#333
+}
+.page a.num.select {
+	padding:6px 10px;
+	color:#fff;
+	background:#f08200;
+	border:1px solid #f08200;
+	margin:0 5px;
+}
+.page a.num {
+	padding:6px 10px;
+	border:1px solid #cccccc;
+	margin:0 5px;
+	background:#fff; color:#333
+}
+.page a.num:hover {
+	padding:6px 10px;
+	color:#fff;
+	background:#f08200;
+	margin:0 5px
+}
+/*上一页下一页*/
+.news_page {
+	margin:20px auto 0;
+	overflow: hidden;
+}
+.news_page li {
+	width:44.5%;
+	float:left;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	padding:0 10px 0 30px;
+	background:#f5f5f5;
+}
+.news_page .pagepre {
+	background:#f5f5f5 url("pagepre.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/public/pagepre.png*/ no-repeat 10px center;
+}
+.news_page .pagepre a, .news_page .pagenext a {
+	line-height:40px;
+	color:#757575;
+	font-size:16px
+}
+.news_page .pagenext {
+	text-align: right;
+	padding-right: 30px;
+	background:#f5f5f5 url("pagenext.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/public/pagenext.png*/ no-repeat 98% center;
+}
+.news_page .pagepre:hover {
+	background:#d8d8d8 url("pagepre.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/public/pagepre.png*/ no-repeat 10px center;
+}
+.news_page .pagenext:hover {
+	background:#d8d8d8 url("pagenext.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/public/pagenext.png*/ no-repeat 98% center;
+}
+
+/*左侧*/
+.leftframe {
+	width:250px;
+	height:auto;
+	display:block;
+	float:left
+}
+.lcommon {
+	width:208px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #dfdfdf;
+	box-shadow: 0 0 10px #e4e2e2;
+	padding:0 20px 20px;
+	margin-bottom:15px;
+}
+.lcommon .head {
+	border-bottom:1px solid #dfdfdf;
+	height:63px;
+	background:url("icon.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/icon.jpg*/ 0 center no-repeat;
+}
+.lcommon .head p {
+	display:block;
+	float:left;
+	padding-left:65px;
+	padding-right:12px;
+	border-bottom:3px solid #da1413;
+	line-height:60px;
+	font-size:24px;
+	color:#da1413;
+	font-weight:bold
+}
+.lcommon .head a {
+	float:right;
+	line-height:63px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#555555
+}
+.lcommon .content {
+	margin-top:8px
+}
+.lcommon .content a {
+	background:#f5f5f5;
+	width: 100%;
+	font-size:16px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	display: inline-block;
+	color: #333;
+	transition: all ease-out 0.2s;
+	margin-top:10px
+}
+.lcommon .content a.on {
+	color: #FFFFFF;
+	background: #fc583d;
+	transition: all ease-out 0.4s;
+}
+.lwhkx {
+	width:208px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #dfdfdf;
+	box-shadow: 0 0 10px #e4e2e2;
+	padding:0 20px 20px
+}
+.lwhkx .head {
+	border-bottom:1px solid #dfdfdf;
+	height:63px;
+	background:url("icon.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/icon.jpg*/ 0 center no-repeat;
+}
+.lwhkx .head p {
+	display:block;
+	float:left;
+	padding-left:65px;
+	padding-right:12px;
+	border-bottom:3px solid #da1413;
+	line-height:60px;
+	font-size:24px;
+	color:#da1413;
+	font-weight:bold
+}
+.lwhkx .head a {
+	float:right;
+	line-height:63px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#555555
+}
+.lwhkx .content {
+	margin-top:12px
+}
+.lwhkx .content ul li {
+	width:100%;
+	height:46px;
+}
+.lwhkx .content ul li a {
+	width:100%;
+	height:46px;
+	font-size:16px;
+	line-height:46px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+}
+<!--
+.lwhkx .content ul li span {
+	height:46px;
+	width:25%;
+	display:block;
+	text-align:right;
+	overflow:hidden;
+	line-height:46px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#7777;
+}
+-->
+/*详情*/
+.newsdet_title {
+	width: 100%;
+	text-align: center;
+	border-bottom:1px solid #dfdfdf;
+	margin-bottom:30px
+}
+.newsdet_title .newsdet_title1 {
+	line-height: 35px;
+	width: 100%;
+	color: #333333;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom:10px;
+}
+.newsdet_title .newsdet_title2 {
+	display: inline-block;
+	color: #999999;
+	font-size: 14px;
+	line-height:35px;
+}
+.newsdet_title .newsdet_title2 span {
+	display: inline-block;
+	float: left;
+	padding: 0 30px;
+	height: 35px;
+	line-height: 35px;
+}
+.newsdet_title .newsdet_title2 .spa1 {
+	background: url("bg7.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg7.png*/ no-repeat 0 50%;
+}
+.newsdet_title .newsdet_title2 .spa2 {
+	background: url("bg8.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg8.png*/ no-repeat 0 50%;
+}
+.newsdet_title .newsdet_title2 .spa3 {
+	background: url("bg9.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg9.png*/ no-repeat 0 50%;
+}
+.newstext {
+	font-size: 16px;
+	color: #757575;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+.newstext p {
+	margin-bottom:10px
+}
+/*新闻列表*/
+.news_top {
+	margin-bottom:30px
+}
+.news_top .leftimg {
+	display:block;
+	float:left;
+	width:281px;
+	height:187px;
+	overflow:hidden;
+	text-align:center
+}
+.news_top .leftimg img {
+	max-width:100%;
+	height:187px;
+	transform: scale(1);
+	transition: all 1s ease-out;
+}
+.news_top:hover .leftimg img {
+	transform: scale(1.2);
+}
+.news_top .righttxt {
+	display:block;
+	float:right;
+	width:610px;
+	height:auto
+}
+.news_top .righttxt p {
+	font-size:24px;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-bottom:12px;
+}
+.news_top .righttxt p a {
+	font-size:24px;
+	line-height:30px;
+}
+.news_top .righttxt span {
+	line-height:24px;
+	font-size:13px;
+	color:#838383;
+	height:96px;
+	display:block;
+	overflow:hidden;
+	margin-bottom:20px
+}
+.news_top .righttxt .date {
+	background:url("time.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/time.png*/ 0 center no-repeat;
+	padding-left:20px;
+	color:#888888;
+	font-size:14px;
+	line-height:20px
+}
+.news_line {
+	border-top: 3px solid #404040;
+}
+.news_line ul {
+	border-bottom: 1px solid #000;
+	background:url("line1.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/line1.jpg*/ repeat
+}
+.news_line ul li {
+	width:100%;
+	height:61px;
+	background:url("icon1a.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/icon1a.png*/ 23px center no-repeat
+}
+.news_line ul li a {
+	width:78%;
+	height:61px;
+	display:block;
+	float:left;
+	text-indent:60px;
+	font-size:16px;
+	color:#000;
+	line-height:61px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+}
+.news_line ul li span {
+	height:61px;
+	width:20%;
+	display:block;
+	text-align:right;
+	overflow:hidden;
+	line-height:61px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#828282;
+	margin-right:2%
+}
+.news_line ul li:hover {
+	width:100%;
+	height:61px;
+	background:url("icon2a.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/icon2a.png*/ 23px center no-repeat #fc583d
+}
+.news_line ul li:hover a {
+	font-size:16px;
+	color:#fff;
+	line-height:61px;
+}
+.news_line ul li:hover span {
+	line-height:61px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+/*留言*/
+.guestbook_show { width:1200px; height:auto;
+	margin:20px auto 0;
+}
+.guestbook_top {
+	height:50px;
+	background:#dfe0e6;
+	line-height:50px;
+	font-size:16px; padding:0 15px
+}
+.guestbook_top .mustwrt {
+	display:block;
+	float:right;
+}
+.guestbook_show em {
+	color:#f00;
+	font-style:normal;
+}
+.guestbook_form .inp_one {
+	width:100%;
+	height:45px;
+	line-height:45px;
+	outline: none;
+	border:1px solid #ccc; text-indent:10px;background:#f7f8ff; color:#9598b1
+}
+
+.guestbook_form .inp_one:focus {
+	border:1px solid #446181;
+}
+.guestbook_form {
+	padding:20px 0 0;
+}
+.guestbook_form dl {
+	width:48%;margin:1%; float:left;
+}
+/*.guestbook_form dd {
+	width:100%;
+}
+.guestbook_form dd span {
+	padding-left:20px
+}
+.guestbook_form dd span i {
+	color:#F00;
+	padding:0 5px;
+}
+.guestbook_form dd span.quetion {
+	display:block;
+}*/
+.guestbook_form .bookdl {
+	height:180px;
+	overflow:hidden;
+	line-height:20px;
+	padding-bottom:0;
+}
+.guestbook_form .button {
+	width:150px;
+	height:40px;
+	background:#768faa;
+	border:none;
+	color:#fff;
+	cursor: pointer;border-radius: 20px; font-size:14px;
+}
+.guestbook_form .button:hover {
+	background:#446181;
+	color:#fff;
+}
+.guestbook_form .form_b {
+	width: 1200px;
+	margin:0 auto;
+	padding:20px 0 0 0;
+	text-align: center;
+}
+.guestbook_title {
+	padding:20px 20px 0;
+	color:#2a6cd4
+}
+.guestbook_title strong {
+	color:#f00;
+}
+.guestbook_title b {
+	padding:0 10px;
+	font-weight:normal;
+}
+.guestbook_cnt {
+	padding:5px 20px 20px;
+	border-bottom: 1px dashed #ccc
+}
+.guestbook_reply {
+	color:#f00;
+	background:#f6f6f6;
+	line-height:40px;
+}
+.XRegina {
+	width: 100%;
+	display: block;
+	background:url("bg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg.jpg*/ repeat
+}
+.XRegina .heada {
+	height:50px;
+	background:#555;
+	color:#fff;
+	line-height:50px;
+	font-size:15px;
+}
+.XRegina .heada ul li {
+	float:left;
+	line-height:50px;
+	font-size:15px;
+	color:#fff;
+	display:block;
+	text-align:center
+}
+.XRegina .heada ul li.li1 {
+	width:16%
+}
+.XRegina .heada ul li.li2 {
+	width:16%
+}
+.XRegina .heada ul li.li3 {
+	width:24%
+}
+.XRegina .heada ul li.li4 {
+	width:12%
+}
+.XRegina .heada ul li.li5 {
+	width:16%
+}
+.XRegina .heada ul li.li6 {
+	width:16%
+}
+.XRegina .contenta {
+	width:100%;
+	height:auto;
+	background:url("bg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/bg.jpg*/ repeat;
+	line-height:50px;
+	font-size:15px;
+}
+.XRegina .contenta a {
+	width:100%;
+	height:50px;
+	display:block;
+	color:#333
+}
+.XRegina .contenta a:hover {
+	width:100%;
+	height:50px;
+	display:block;
+	background:#f2f2f2;
+	color:#333
+}
+.XRegina .contenta ul li {
+	float:left;
+	line-height:50px;
+	font-size:15px;
+	display:block;
+	text-align:center;
+	border-bottom:1px solid #dfdfdf
+}
+.XRegina .contenta ul li a {
+	line-height:50px;
+	font-size:15px;
+	color:#333;
+}
+.XRegina .contenta ul li a:hover {
+	line-height:50px;
+	font-size:15px;
+	color:#ca0000;
+}
+.XRegina .contenta ul li.li1 {
+	width:16%;
+	height:50px;
+}
+.XRegina .contenta ul li.li2 {
+	width:16%;
+	height:50px;
+}
+.XRegina .contenta ul li.li3 {
+	width:24%;
+	height:50px;
+}
+.XRegina .contenta ul li.li4 {
+	width:12%;
+	height:50px;
+}
+.XRegina .contenta ul li.li5 {
+	width:16%;
+	height:50px;
+}
+.XRegina .contenta ul li.li6 {
+	width:16%;
+	height:50px;
+}
+.showa {
+	width:95%;
+	display:block;
+	margin:0 auto;
+	height:auto;
+	line-height:30px;
+}
+.show_page {
+	margin:20px auto;
+	overflow: hidden;
+	text-align: center;
+}
+.show_page li {
+	width:50%;
+	float:left;
+}
+.show_page li a {
+	color:#333
+}
+.XReginaa {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 35%;
+	z-index: 9;
+	display: block;
+	background:#fff;
+	min-height:300px
+}
+.XReginaa .contentaa {
+	padding:25px;
+	line-height:30px
+}
+.XReginaa .contentaa .titleaa {
+	border-bottom:1px solid #cfcfcf;
+	height:30px;
+}
+.XReginaa .contentaa .titleaa p {
+	float:left;
+	border-bottom:2px solid #0072c0;
+	line-height:29px;
+	font-size:18px;
+	font-weight:bold;
+	color:#0072c0
+}
+.XReginaa .contentaa .contaa {
+	margin-top:30px;
+	line-height:30px;
+}
+.XReginaa .contentaa .contaa p {
+	font-size:16px;
+	color:#333;
+	font-weight:bold
+}
+.XReginaa .contentaa .contaa p span {
+	font-size:16px;
+	color:#ff0000;
+	font-weight:bold
+}
+.XReginaa .contentaa .contbb {
+	margin-top:30px;
+	line-height:30px;
+}
+.XReginaa .contentaa .contbb ul li {
+	width:100%;
+	height:30px;
+	border-bottom:1px dashed #e0e0e0;
+}
+.XReginaa .contentaa .contbb ul li a {
+	float:left;
+	width:80%;
+	line-height:30px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	display:block;
+	color:#333
+}
+.XReginaa .contentaa .contbb ul li span {
+	float:right;
+	width:20%;
+	display:block;
+	text-align:right;
+	line-height:30px;
+	font-size:12px;
+	color:#888
+}
+/*联系我们*/
+#telback {
+	background: url("lxs.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/lxs.png*/ no-repeat 0 -30px;
+	min-height:370px;
+	padding: 80px 0 0 440px;
+	width: 760px;
+	margin:0 auto;
+	font-size:15px !important;
+	line-height:30px !important;
+	color:#333 !important;
+}
+#telback strong {
+	font-size:18px;
+	color:#ff6600;
+	line-height:35px;
+	font-weight:bold
+}
+/*在线地图*/
+.week_map {
+	position: relative;
+	height: 550px;
+	max-width: 1200px;
+	margin-bottom: -5px;
+	padding:10px 10px;
+	border:#999 dashed 1px;
+}
+#allmap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+/*子页面详情页*/
+.primgpic {
+	display:block;
+	text-align:center;
+	margin-bottom:20px
+}
+.primgpic img {
+	max-width:100%;
+	height:auto;
+}
+/*产品详情页*/
+.cpshow {
+	width:1200px;
+	height:auto;
+	margin:0 auto
+}
+.cpshow .leftpic {
+	display:block;
+	text-align:center;
+	float:left;
+	display: block;
+	width:480px;
+	height:360px;
+	overflow:hidden;
+	padding:2px;
+	border:1px solid #cfcfcf
+}
+.cpshow .leftpic img {
+	max-width:100%;
+	height:360px;
+	transition: all 1s ease-out;
+	transform: scale(1);
+}
+.cpshow .leftpic:hover img {
+	transform: scale(1.2);
+}
+.cpshow .righttxt {
+	display:block;
+	float:right;
+	width:670px;
+	height:auto;
+}
+.cpshow .righttxt ul li {
+	border-bottom:1px dashed #cfcfcf;
+	height:46px;
+	line-height:46px;
+	font-size:14px;
+	color:#666666
+}
+.cpshow .righttxt ul li span {
+	line-height:46px;
+	font-size:20px;
+	color:#f08200
+}
+.cpshow .righttxt ul li .more {
+	width:120px;
+	height:35px;
+	display:block;
+	text-align:center;
+	line-height:35px;
+	background:#f08200;
+	color:#fff;
+	border-radius:10px;
+	margin-top:50px
+}
+.cpshow .righttxt ul li.li1 {
+	border-bottom:none;
+	margin-top:20px;
+	margin-bottom:0;
+	font-size:24px;
+	line-height:40px;
+	font-weight:bold;
+	color:#333
+}
+.contentm {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	margin-top:20px
+}
+.contentm .titlea {
+	width:100%;
+	height:40px;
+	margin:0 auto;
+	border-bottom:1px solid #f08200
+}
+.contentm .titlea span {
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	background:#f08200;
+	line-height:40px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold
+}
+.contentm .cont {
+	line-height:30px !important;
+	font-size:14px !important;
+	margin-top:30px
+}
+
+.bgineco1{ width:1200px; height:450px; display:block; overflow:hidden; margin:40px auto 0; background:#f7f8ff}
+.bgineco1 .lefttxt{ width:550px; height:425px; display:block; float:left; padding:25px 25px 0}
+.bgineco1 .lefttxt *{ font-size:16px; line-height:30px; color:#365075}
+
+
+.bgineco1 .lefttxt ul li{width:33.3%; height: auto;display:block; text-align:center; float:left;margin: 0 0 18px 0;}
+.bgineco1 .lefttxt ul li img{transition: all 0.3s linear 0s;height:55px;}
+.bgineco1 .lefttxt ul li p{font-size:20px; color:#365075; line-height:30px; margin:5px auto}
+/*.bgineco1 .lefttxt ul li:hover img{transform:rotate(360deg);}*/
+
+
+.bgineco1 .rightvideo{ width:600px; height:450px; display:block; float:right; background: url("ineco_video.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/ineco_video.jpg*/ center center no-repeat}
+
+
+.in_news{ width:100%; height: auto; margin:80px auto 0; background:#f7f8ff; padding-top:50px; padding-bottom:50px; display:block; overflow:hidden}
+
+.in_news .news_topa {text-align: center; margin-top:40px}
+.in_news .news_topa li{display: inline-block;height:43px;line-height:43px; padding:0 25px;margin:0 15px; background:#d7dee4; color:#333; font-size:18px;border-radius:10px}
+.in_news .news_topa li a{color: #333;font-size: 16px;}
+.in_news .news_topa li:hover,.in_news .news_topa li.on{border-radius:10px; background:#446181}
+.in_news .news_topa li:hover a,.in_news .news_topa li.on a{color: #fff;}
+
+.wrap{ width:1200px; height:auto; margin:0 auto; margin-top:40px}
+
+
+.in_news .news_box{text-align: center}
+.in_news .news_box ul{display: none;}
+.in_news .news_box ul.on{display: block;}
+/*.in_news .news_box li {float: left; margin-right:0}
+*/
+.in_news .news_box li{display: inline-block;}
+
+
+.proming_a{ width:200px; height: auto; display:block; text-align:center}
+.proming_a .topimg{width:100px; height:100px; margin:0 auto; display:block; overflow:hidden; }
+.proming_a .topimg img{ width:100px; height:100px;transition: all 0.3s linear 0s;}
+/*.proming_a:hover .topimg img{transform:rotate(360deg);}*/
+.proming_a p{ width:100%; height:40px; line-height:40px;font-size:16px; text-overflow:ellipsis;white-space:nowrap; display:block; overflow:hidden; margin:5px auto}
+
+.proming_b{ width:200px; height: auto; display:block; text-align:center; float:left; margin:20px 0}
+.proming_b .topimg{width:100px; height:100px; margin:0 auto; display:block; overflow:hidden; }
+.proming_b .topimg img{ width:100px; height:100px;transition: all 0.3s linear 0s;}
+/*.proming_b:hover .topimg img{transform:rotate(360deg);}*/
+.proming_b p{ width:100%; height:40px; line-height:40px;font-size:16px; text-overflow:ellipsis;white-space:nowrap; display:block; overflow:hidden; margin:5px auto}
+
+.proming_d{ width:200px; height: auto; display:block; text-align:center; float:left; margin:20px 0}
+.proming_d .topimg{width:100px; height:55px; margin:0 auto; display:block; overflow:hidden; }
+.proming_d .topimg img{ max-width:100%; height:55px;transition: all 0.3s linear 0s;}
+/*.proming_d:hover .topimg img{transform:rotate(360deg);}*/
+.proming_d p{ width:100%; height:40px; line-height:40px;font-size:16px; text-overflow:ellipsis;white-space:nowrap; display:block; overflow:hidden; margin:5px auto}
+
+
+/*news_list*/
+.news_list {
+  width: 100%;
+}
+.news_list li {
+  padding: 45px 0;
+  border-bottom: 1px solid #D3D3D3;
+}
+.news_list li .time {
+  width: 92px;
+  height: 78px;
+  border-right: 3px solid #AFAFAF;
+  color: #AFAFAF;
+}
+.news_list li .time .t1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.news_list li .time .t2 {
+  font-size: 16px;
+}
+
+.news_list li img{
+  width: 350px;
+  margin-left: 32px;
+}
+.news_list li .txt {
+  width: 675px;
+  padding-top: 15px;
+}
+.news_list li .txt .txt1 {
+  font-size: 21px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+.news_list li .txt .txt1 a{ color:#333}
+.news_list li .txt .txt2 {
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 30px;
+  height: 90px; display:block; overflow:hidden
+}
+.news_list li .txt a.more {
+  display: block;
+  width: 90px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px; color:#444
+}
+.news_list li:first-child {
+  padding-top: 0;
+}
+.news_list li:hover .txt .txt1 {
+  color: #264065;
+}
+.news_list li:hover .txt .txt1 a {
+  color: #264065;
+}
+.news_list li:hover .txt a.more {
+  border: 1px solid #264065;
+  color: #264065;
+}
+
+
+
+/*人才招聘修改后样式*/
+.job-warp{width: 1200px;margin: 0 auto 30px;}
+    
+    .job-warp ul li{height: auto;width: 100%;border-bottom: 1px solid #e9ebed}
+    .job-warp li .titlea{height: 52px;line-height: 52px;padding: 0 40px;color: #4b4b4b;background-color: #f5f5f5;font-size: 16px;cursor:pointer;transition: all 0.5s;-webkit-transition: all 0.5s;}
+    .job-warp li.on .titlea{background-color: #436082;color: #fff;}
+    .job-warp li .titlea span{float: right;padding-right: 30px;background: url("job-icon1.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/job-icon1.png*/ right center no-repeat; font-size:14px}
+    .job-warp li.on .titlea span{background: url("job-icon2.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/job-icon2.png*/ right center no-repeat}
+    .job-warp li .warp{padding: 10px 30px 20px;background-color: #fff;display: none}
+    .job-warp .warp .tbl{width:100%;margin-bottom: 25px;padding:10px 0 20px 0;border-bottom: 1px solid #e9ebed}
+    .job-warp .warp .tbl p{width: 33.3%;float: left;font-size: 14px;color: #222;line-height: 26px;}
+    .job-warp .warp .tbl p span{color: #565656;padding-left: 15px;}
+    .job-warp .warp .cont h2{font-size: 14px;color: #222;line-height: 30px;margin-bottom: 15px;}
+    .job-warp .warp .cont .cent,.job-warp .warp .cont .cent p{font-size: 14px;line-height: 28px;color: #565656}
+    .job-warp .warp .btns{font-size:14px;line-height: 20px;color: #005ba0;cursor: pointer;transition: all 0.5s;-webkit-transition: all 0.5s; margin:20px 0; display:block}
+    .job-warp .warp .btns:hover{color: #222;}
+	
+	
+.fldy{ width:100%; height:auto; margin:0 auto}
+.fldy .titlea{ font-size:18px; color:#436082; line-height:35px; font-weight:bold; margin-bottom:20px}
+.tda{ padding:0 0 0 10px; line-height:40px; }
+.tdb{ color:#fff; font-weight:bold}
+
+.fjsc{ width:550px; height:auto; margin:0 auto; background:#fafafa; border:1px solid #d9dde2; padding:0}
+.fjsc .titleb{ background:#436082; height:50px; line-height:50px; font-size:18px; font-weight:100; color:#fff; display:block; text-indent:20px}
+.fjsc .contentb{ padding:25px;font-size:15px; line-height:35px;}
+.fjsc .contentb ul li{ line-height:35px; font-size:15px}
+.inp_two{width:300px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    background: #fafafa;
+    color: #9598b1;}
+.btn_blue{    background: #436082;
+    height: 35px;
+    min-width: 100px;
+    padding: 0 10px;
+    line-height: 35px;
+    border-radius: 25px;
+    margin: 0px 0 0 80px;
+    text-align: center;
+    border: 0px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;}
+	
+	
+/*生态合作*/
+
+.proming_e{ width:274px; height:90px; display:block; text-align:center; float:left; margin:13px; overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+.proming_e .topimg{ display:block;width:272px; height:88px; border:1px solid #d1d1d1; overflow:hidden; text-align:center}
+.proming_e .topimg img{max-width:100%;height:88px;transform: scale(1);transition: all 1s ease-out;}
+.proming_e:hover .topimg img{transform: scale(1.2);}

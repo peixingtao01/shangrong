@@ -1,0 +1,366 @@
+<link href="css/subglobal.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset=utf-8"utf-8">
+<title>企业资讯-昆岳互联环境技术（江苏）有限公司</title>
+<meta name="keywords" content="昆岳互联环境技术（江苏）有限公司，INECO平台，智慧运维，智慧园区，智慧环保">
+<meta name="description" content="昆岳互联环境技术（江苏）有限公司是一家专业从事环境保护领域数字化转型升级的高科技企业">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<link rel="icon" href="/Public/Home/default/images/favicon.ico" type="image/x-icon" />-->
+<link rel="stylesheet" href="/Public/Home/default/css/global.css"/>
+<link rel="stylesheet" href="/Public/Home/default/css/subglobal.css"/>
+<link href="/Public/Home/default/css/animate.min.css" rel="stylesheet" type="text/css">
+<script src="/Public/Home/default/js/jquery-1.10.1.min.js"></script>
+<script src="/Public/Home/default/js/wow.min.js" type="text/javascript"></script>
+
+<style type="text/css">
+        .nav{width: 100%;height: 140px;background-color: rgba(255,255,255,0);z-index: 99998;position: fixed;top: 0px;}
+        .navWrap .navlist>li:hover>a{border-bottom: 4px solid rgba(2,138,212,.4);}
+        .navWrap .navlist li .bigmenu{position:absolute;top:100px; left: 0; background:rgba(67,96,130,.8);overflow: hidden;display: none;z-index: 44444;padding:40px 80px 50px 80px;}
+        
+		.navWrap .navlist li .bigmenu .menulist li a{font-size:16px;width:100%;color:#fff;display: block;text-align:left;line-height: 36px;}
+        .navWrap .navlist li .bigmenu .menulist li a:hover{color:#fff; font-weight:bold}
+        
+		.navWrap .navlist li .bigmenu1{position:absolute;top:100px; background:rgba(67,96,130,.8);overflow: hidden;display: none;z-index: 44444;padding:40px 29px 30px;margin-left:0}
+        .navWrap .navlist li .bigmenu1 .menulist li a:hover{color:#fff; font-weight:bold}
+
+        .fixednav{width:100%;height:140px;position: fixed;z-index: 99999;background-color: rgba(0,0,0,.8);}
+    </style>
+</head>
+<body>
+<div class="nav">
+ <script type="text/javascript">
+$(function(){
+	var $chkurl = "/index.php/Public/loginChk.html";
+	$.get($chkurl,function(data){
+		//alert(data);
+		if (data.status == 1) {
+			$('#top_login_ok').show();
+			$('#top_login_no').hide();
+			//$('#top_login_ok').find('span');
+			$('#top_login_ok>span').html('欢迎'+data.nickname+',来到昆岳互联环境技术（江苏）有限公司官方网站。');
+		}else {			
+			$('#top_login_ok').hide();
+			$('#top_login_no').show();
+		}
+	},'json');	
+});
+</script>
+<div id="top_member">
+	 	
+		<div id="top_login_no">
+		 
+        <span><b>游客</b>，您好！欢迎来到昆岳互联环境技术（江苏）有限公司官方网站。</span>
+		<a href="/index.php/Home/Public/register.html">免费注册</a>	
+		<a href="/index.php/Home/Public/login.html">会员登录</a>	
+		</div>
+		 
+		<div id="top_login_ok" style="display:none;">
+        <span></span>
+		<a href="/index.php/Home/Member/index.html">会员管理</a>	
+		<a href="/index.php/Home/Public/logout.html">安全退出</a>
+		</div>
+		 
+		</div>
+    <div class="navWrap">
+        <p class="logo"><a href="/index.php/Index/index.html"></a></p>
+        <ul class="navlist">
+            <li><a href="/index.php/Index/index.html">网站首页</a>
+            <div class="bigmenu1">
+                	<ul class="menulist guanlist">
+                    	<li><a href="/index.php/Index/index.html#gywm" title="公司简介" style="font-size:16px;">公司简介</a></li>
+                        <li><a href="/index.php/Index/index.html#zxzx" title="资讯中心" style="font-size:16px;">资讯中心</a></li>
+                    </ul>    
+                </div>
+            </li>
+            <li><a href="/index.php/List/index/cid/359.html">INECO</a>            <div class="bigmenu1">
+                <ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/411.html" title="a环保APP" style="font-size:16px;">a环保APP</a></li>
+                    </ul>     
+                </div>
+            </li> 
+            
+            
+                     
+            <li>
+                <a href="493.html" tppabs="http://www.kunyue2019.com/index.php/Show/index/cid/389/id/493.html" >解决方案</a>                <div class="bigmenu">
+                <ul class="menulist">
+                    <p>智慧运维</p>
+                    <li><a href="/index.php/Show/index/cid/389/id/493.html">- 全要素第三方运维</a></li><li><a href="/index.php/Show/index/cid/389/id/492.html">- 劳务型第三方运维</a></li><li><a href="/index.php/Show/index/cid/389/id/491.html">- 检修型第三方运维</a></li><li><a href="/index.php/Show/index/cid/389/id/490.html">- 咨询型第三方运维</a></li><li><a href="/index.php/Show/index/cid/389/id/489.html">- 监理型第三方运维</a></li>  
+                </ul><ul class="menulist">
+                    <p>智慧环保岛</p>
+                    <li><a href="/index.php/Show/index/cid/390/id/487.html">- 技术支持</a></li><li><a href="/index.php/Show/index/cid/390/id/471.html">- 全方位解决方案</a></li><li><a href="/index.php/Show/index/cid/390/id/470.html">- 智慧升级解决方案</a></li><li><a href="/index.php/Show/index/cid/390/id/469.html">- 降本提效解决方案</a></li>  
+                </ul><ul class="menulist">
+                    <p>环境大脑</p>
+                    <li><a href="/index.php/Show/index/cid/391/id/478.html">- 污染源地天空一体化监控</a></li><li><a href="/index.php/Show/index/cid/391/id/477.html">- 污染源溯源及环境预测</a></li><li><a href="/index.php/Show/index/cid/391/id/476.html">- 环保岛全生命周期管理</a></li><li><a href="/index.php/Show/index/cid/391/id/475.html">- 环保岛性能评估及优化</a></li><li><a href="/index.php/Show/index/cid/391/id/474.html">- 环保岛远程故障预计及诊断</a></li>  
+                </ul>                </div>
+            </li>
+            <li>
+            <a href="/index.php/List/index/cid/317.html">应用案例</a>            	<div class="bigmenu1">
+                <ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/336.html" title="智慧运维" style="font-size:16px;">智慧运维</a></li>
+                    </ul><ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/355.html" title="智慧园区" style="font-size:16px;">智慧园区</a></li>
+                    </ul><ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/356.html" title="智慧环保" style="font-size:16px;">智慧环保</a></li>
+                    </ul>     
+                </div>
+            </li>
+            <li>
+            <a href="/index.php/List/index/cid/261.html">新闻中心</a>            <div class="bigmenu1">
+                <ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/322.html" title="企业资讯" style="font-size:16px;">企业资讯</a></li>
+                    </ul><ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/323.html" title="行业动态" style="font-size:16px;">行业动态</a></li>
+                    </ul>     
+                </div>
+            </li>
+            <li>
+            <a href="335.html" tppabs="http://www.kunyue2019.com/index.php/List/index/cid/335.html">关于我们</a>            	<div class="bigmenu1">
+                <ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/341.html" title="人才招聘" style="font-size:16px;">人才招聘</a></li>
+                    </ul><ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/392.html" title="员工活动" style="font-size:16px;">员工活动</a></li>
+                    </ul><ul class="menulist guanlist">
+                    	<li><a href="/index.php/List/index/cid/342.html" title="联系我们" style="font-size:16px;">联系我们</a></li>
+                    </ul>     
+                </div>
+            </li>
+            <li><a href="/index.php/List/index/cid/375.html">生态合作</a></li>
+            <li><a href="/index.php/List/index/cid/399.html">加入我们</a></li>
+</ul>
+
+<div class="toplogin"><a href="/index.php/Home/Public/register.html">注册</a> | <a href="/index.php/Home/Public/login.html">登录</a></div>
+    </div>
+   
+</div>
+<script type="text/javascript" src="/Public/Home/default/js/all.js"></script>
+<script>
+    /*导航移动*/
+    var scrollMenu = 0;
+    if ($(window).width() > 1200){
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50){
+                $('.nav').addClass("fixednav");
+                $(".nav-yz").css('display','block');
+                if (scrollMenu == 0){
+                    $('.nav').hide();
+                    $('.nav').fadeIn(500);
+                    scrollMenu = 1;
+                }
+            } else{
+                if (scrollMenu == 1){
+                    $('.nav').removeClass("fixednav");
+                    $(".nav-yz").css('display','none');
+                    $('.nav').hide();
+                    $('.nav').fadeIn(800);
+                    scrollMenu = 0;
+                }
+            }
+        });
+    } else {
+
+    }
+</script>
+<div class="neibanner" style="background:url(/uploads/img1/20190514/5cda167a7714c.jpg) no-repeat 50% #f1f1f1; background-size: cover;"></div>
+<div class="subnav">
+    	<ul>
+         <li><a href='/index.php/List/index/cid/322.html' class="on" >企业资讯</a></li><li><a href='/index.php/List/index/cid/323.html'  >行业动态</a></li>      	<div class="clear"></div>	
+        </ul>
+</div>
+<div class=" mainframe">
+	<p class="jiantit">企业资讯</p>
+    <div class="content">
+    
+    <div class="news_list">
+    	<ul>
+         <li>
+            	<div class="time fl">
+                	<p class="t1">03-02</p>
+                    <p class="t2">2020</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1261.html"><img src="/uploads/img1/20200302/5e5c6d664aa00.png"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1261.html">变革 | 突发新冠，给传统环保产业的思考！！！</a></p>
+                    <p class="txt2">a环保”APP是昆岳互联第一款互联网产品，基于INECO平台，对环境基础设施海量数据实时处理与分析，创新掌上环境治理新模式，为排污企业、工业园区和传统环保企业提供数字化升级服务，通过云服务快速部署，为客户创造节能、安全、高效、可靠和便捷的环保价值。以聚焦客户需求，聚焦数据价值，为客户创造价值为企业核心价值观，让客户在环境设施投资管理上省心、运营上省钱和协调上省事，做一个值得业主信赖的智慧环保管家，让环境保护更简单。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1261.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">02-03</p>
+                    <p class="t2">2020</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1259.html"><img src="/uploads/img1/20200211/5e42b6bbb6a0e.jpg"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1259.html">客户 | 疫情防控，昆岳互联与客户肩并肩</a></p>
+                    <p class="txt2">疫情就是命令，防控保运行就是责任。昆岳互联积极响应相关部门的要求，迅速成立昆岳互联新型冠状病毒肺炎疫情防控工作组，坚决落实好疫情防控工作，避免交叉感染。在疫情期间，昆岳互联与客户肩并肩，坚决打赢打好疫情防控阻击战。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1259.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">02-01</p>
+                    <p class="t2">2020</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1258.html"><img src="/uploads/img1/20200211/5e42b76e68e77.jpg"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1258.html">责任 | 疫情防控，昆岳互联在行动</a></p>
+                    <p class="txt2">当前，新型冠状病毒感染的肺炎疫情防控工作正处于关键时期，牵动着全国人民的心。昆岳互联严格按照相关部门统一部署要求，迅速进入高度戒备状态，投入到抗击和防控疫情行动中，公司全面落实各项防控措施，坚决打赢这场疫情防控阻击战。
+
+接到相关部门通知后，昆岳互联迅速成立由法人代表刘怀平担任组长的新型冠状病毒肺炎疫情防控工作组，全面负责捐赠驰援、疫情监控、疫情报告、客户对接以及对外协调等工作，并在盐城总部设立临时指挥部，统一指挥和调度驻外项目团队和假期员工的疫情防控工作。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1258.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">01-25</p>
+                    <p class="t2">2020</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1257.html"><img src="/uploads/img1/20200211/5e42b454d59f8.png"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1257.html">新年喜讯 | 昆岳互联中标盐城热电环保岛运营项目</a></p>
+                    <p class="txt2">近日，昆岳互联环境技术（江苏）有限公司（简称：昆岳互联）中标国家电投集团江苏电力公司-盐城热电厂环保岛系统智慧运营项目。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1257.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">01-20</p>
+                    <p class="t2">2020</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1256.html"><img src="/uploads/img1/20200211/5e42b7b7c0675.jpg"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1256.html">年会 | 启航2020，昆岳互联迎新年会圆满落幕 ​</a></p>
+                    <p class="txt2">2019年，在昆岳人的共同努力下，公司各项工作都初见成效。会上，各部门分别围绕2019年重点工作指标展开阐述，在总结2019年基础上，重点分析2020年工作思路和措施，为昆岳互联2020年各方面工作扎实推进出谋划策。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1256.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">12-05</p>
+                    <p class="t2">2019</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1249.html"><img src="/uploads/img1/20191205/5de86e3d4add0.jpg"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1249.html">考察 | 长三角青年人才融合发展会议嘉宾到昆岳互联考察指导</a></p>
+                    <p class="txt2">2019年11月29日，长三角青年人才融合发展会议在江苏盐城举行。期间，团上海市委副书记、上海市青联主席刘伟，团浙江省委副书记、浙江省青联主席王慧琳，团安徽省委副书记、安徽省青联主席杨正，江苏团省委统战部部长、江苏省青联秘书长刘雯等一行到昆岳互联考察指导。盐城团市委书记尹同阳等陪同考察。昆岳互联智慧环保事业部总监周必华热情接待并向刘书记一行介绍昆岳互联发展情况。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1249.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">11-22</p>
+                    <p class="t2">2019</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1248.html"><img src="/uploads/img1/20191205/5de86ef3aa782.jpg"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1248.html">服务 | 昆岳互联第三方运维模式获客户高度评价</a></p>
+                    <p class="txt2">11月21日，昆岳互联金大地项目部在11月份业主CTPM推进中排名首位，并被授予“羚羊奖”锦旗。该奖项的获得，是客户对昆岳互联“聚焦客户需求”核心价值观的充分肯定。为激励全体员工始终以“为客户创造价值”为工作的出发点，做一个值得业主信赖的环保管家，让环境保护更简单，公司决定给予金大地项目部2万元的现金奖励。</p>
+                    <a href="/index.php/Show/index/cid/322/id/1248.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">10-29</p>
+                    <p class="t2">2019</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1247.html"><img src="/uploads/img1/20191126/5ddc92bf555a9.JPG"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1247.html">论坛 | 环保产业数字化转型升级论坛在盐召开</a></p>
+                    <p class="txt2">10月26日，由中国化工环保协会、江苏盐城环保科技城和昆岳互联环境技术（江苏）有限公司（以下简称:昆岳互联）承办的“环保产业数字化转型升级论坛”在江苏盐城环保产业会展中心成功召开。中国化工环保协会理事长周献慧、中国环保产业协会秘书长易斌、昆</p>
+                    <a href="/index.php/Show/index/cid/322/id/1247.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li><li>
+            	<div class="time fl">
+                	<p class="t1">10-28</p>
+                    <p class="t2">2019</p>
+                </div>
+                <a href="/index.php/Show/index/cid/322/id/1246.html"><img src="/uploads/img1/20191029/5db80d91b43e9.JPG"></a>
+                <div class="txt fr">
+                	<p class="txt1 cover"><a href="/index.php/Show/index/cid/322/id/1246.html">创新融合 | 清华大学首期创新领军工程博士2班师生</a></p>
+                    <p class="txt2">2019年10月25-27日，清华大学首期创新领军工程博士2班师生齐聚美丽的江苏盐城，走进2班同学刘怀平及其团队所创办的昆岳互联环境技术（江苏）有限公司，并就国内外环保产业的现状与未来以及环保产业互联网平台技术架构进行了深入交流。 </p>
+                    <a href="/index.php/Show/index/cid/322/id/1246.html" class="more">查看详情</a>
+                </div>
+                <p class="clearfix"></p>
+            </li>        </ul>
+    </div>
+        <div class="clear"></div>
+    <div class="page"> <span>记录总数 14  页数 2</span>   <a class="num select">1</a><a class="num" href="/index.php/List/index/cid/322/p/2.html">2</a> <a class="" href="/index.php/List/index/cid/322/p/2.html">下一页</a>  </div>
+    </div>
+</div>
+<div class="foot">
+	<div class="main">
+    	<div class="leftdh">
+        	<div class="title"><p>解决方案</p></div>
+            <div class="cont">
+            	<ul>
+                <li>
+                	<a href="/index.php/List/index/cid/389.html" class="oneproa textover">智慧运维</a> 
+                    <div class="clear"></div>
+                    <a href="/index.php/Show/index/cid/389/id/493.html" class="oneprob textover">- 全要素第三方运维</a><a href="/index.php/Show/index/cid/389/id/492.html" class="oneprob textover">- 劳务型第三方运维</a><a href="/index.php/Show/index/cid/389/id/491.html" class="oneprob textover">- 检修型第三方运维</a><a href="/index.php/Show/index/cid/389/id/490.html" class="oneprob textover">- 咨询型第三方运维</a><a href="/index.php/Show/index/cid/389/id/489.html" class="oneprob textover">- 监理型第三方运维</a>    
+                </li><li>
+                	<a href="/index.php/List/index/cid/390.html" class="oneproa textover">智慧环保岛</a> 
+                    <div class="clear"></div>
+                    <a href="/index.php/Show/index/cid/390/id/487.html" class="oneprob textover">- 技术支持</a><a href="/index.php/Show/index/cid/390/id/471.html" class="oneprob textover">- 全方位解决方案</a><a href="/index.php/Show/index/cid/390/id/470.html" class="oneprob textover">- 智慧升级解决方案</a><a href="/index.php/Show/index/cid/390/id/469.html" class="oneprob textover">- 降本提效解决方案</a>    
+                </li><li>
+                	<a href="/index.php/List/index/cid/391.html" class="oneproa textover">环境大脑</a> 
+                    <div class="clear"></div>
+                    <a href="/index.php/Show/index/cid/391/id/478.html" class="oneprob textover">- 污染源地天空一体化监控</a><a href="/index.php/Show/index/cid/391/id/477.html" class="oneprob textover">- 污染源溯源及环境预测</a><a href="/index.php/Show/index/cid/391/id/476.html" class="oneprob textover">- 环保岛全生命周期管理</a><a href="/index.php/Show/index/cid/391/id/475.html" class="oneprob textover">- 环保岛性能评估及优化</a><a href="/index.php/Show/index/cid/391/id/474.html" class="oneprob textover">- 环保岛远程故障预计及诊断</a>    
+                </li> 
+            </ul>
+            </div>
+        </div>
+        <div class="rightlx">
+        	<div class="title"><p>联系我们</p></div>
+            <div class="cont"><p>智 慧 运 维 ：18961919889&nbsp;</p><p>智 慧 园 区 ：18961996399&nbsp;</p><p>智慧环保岛：18012501520&nbsp;</p><p>电 　话：0515-88395899&nbsp;</p><p>邮 　箱：kunyue2019@163.com</p><p>地 　址：江苏省盐城市亭湖区环保科技城环保大道42号（创新中心东门）</p></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="footer">
+	<ul>
+    	<li>版权所有：copyright © 2019 昆岳互联环境技术（江苏）有限公司</li>
+        <li>备案号：<a href="javascript:if(confirm('http://www.beian.miit.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.beian.miit.gov.cn/'" tppabs="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备19022983号</a></li>
+        <li>技术支持：<a href="javascript:if(confirm('http://www.ycbip.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.ycbip.com/'" tppabs="http://www.ycbip.com/" target="_blank">百度思科</a></li>
+    </ul>
+</div>
+<script src="/Public/Home/default/js/bann.js" type="text/javascript"></script> 
+
+
+<link rel="stylesheet" type="text/css" href="/Public/Home/default/statics/css/style.css" />
+<div class="side">
+	<ul>
+		<li id="qqonline"><a href="tencent://message/?uin=2045940941&amp;Site=昆岳互联环境技术（江苏）有限公司&amp;Menu=yes"  target="_blank"><i class="bgs1"></i>QQ咨询</a></li>
+		<li class="shangqiao">
+			<a href="/index.php/List/index/cid/342.html" target="_blank" rel="nofollow">
+				<i class="bgs2"></i>在线留言
+			</a>
+		</li>
+		<li class="sideewm"><i class="bgs3"></i>官方微信
+			<div class="ewBox son"></div>
+		</li>
+		<li class="sideetel"><i class="bgs4"></i>联系电话
+			<div class="telBox son">
+				<dd class="bgs2"><span>手机</span>0515-88395899</dd>
+			</div>
+		</li>
+		<li class="sidetop" onClick="goTop()"><i class="bgs6"></i>返回顶部</li>
+	</ul>
+</div>
+<!--<script src="/Public/Home/default/statics/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>-->
+
+<script>
+	function goTop() {
+		$('html,body').animate({
+			scrollTop: 0
+		}, 500)
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/*index*/
+.indexBanner{height:1000px;}
+.indexBanner .flexslider{width:100%;min-width:1200px;}
+.indexBanner .slides{min-width:1200px;}
+.indexBanner .slides li{height:1000px;width:100%;min-width:1200px; text-align:center;}
+.indexBanner .slides li a{ text-decoration:none;}
+.indexBanner .flex-direction-nav a  {width:32px;height:60px;line-height:99em;overflow:hidden;margin:-60px 0 0;display:block;position:absolute;top:50%;z-index:12;cursor:pointer;opacity:0;filter:alpha(opacity=0);-webkit-transition:all .3s ease;}
+.indexBanner .flex-direction-nav .prev { left: 1%; background:url("/static/deskshow/images/indexleft.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/indexleft.png*/ no-repeat; }
+.indexBanner .flex-direction-nav .next{right:1%;background:url("/static/deskshow/images/indexright.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/indexright.png*/ no-repeat; }
+.indexBanner .flexslider:hover .next{opacity:1;filter:alpha(opacity=100);}
+.indexBanner .flexslider:hover .prev{opacity:1;filter:alpha(opacity=100);}
+.index01{height:460px;background:#f7f7f7;}
+.index01 .test{background:#fff;height:245px;  position:relative;z-index:999;top:-33px; text-align:center;}
+.index01 .test h4{font-size:22px;color:#63065f;padding:60px 0 30px;}
+.index01 .test p{color:#7e7b7b;font-size:14px;line-height:24px;padding:0 40px;}
+.index01 .content{width:100%;height:180px; overflow:hidden;margin-top:5px;}
+.index01 .content ul{display:inline-block;width:1200px;}
+.index01 .content ul li{float:left;width:240px;}
+.index01 .content ul li a{display:inline-block;width:230px;height:180px; text-align:center; text-decoration:none; position:relative;}
+.index01 .content ul li a img{padding-top:40px;padding-bottom:10px;}
+.index01 .content ul li a p{font-size:15px;color:#fff;}
+.index01 .content ul li .a1{background:#051c48;}
+.index01 .content ul li .a2{background:#ae7f65;}
+.index01 .content ul li .a3{background:#163266;}
+.index01 .content ul li .a4{background:#63065f;}
+.index01 .content ul li .a5{background:#051c48;}
+.index01 .content ul li .a6{background:#ae7f65;}
+.index01 .content ul li a .box{ position:absolute;left:0;right:0;bottom:0;top:0;color:#fff;font-size:12px;background:url("box_bg.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/box_bg.jpg*/ no-repeat left top;display:none;}
+.index01 .content ul li a .box table{width:100%;height:180px;}
+.indexBanner .flex-control-nav{ position:absolute;bottom:40px;}
+.indexBanner .flex-control-nav a{display:inline-block;width:20px;height:20px;background:#365075;border-radius:50%;}
+.indexBanner .flex-control-nav a.active{background:#fff;}
+.index02{width:100%;padding-bottom:60px;}
+.index02 .top{width:100%;padding:40px 0;}
+.index02 .top h3{font-size:22px;color:#333333;}
+.index02 .top h4{font-size:22px;color:#d0d0d0; text-transform:uppercase;}
+.index02 .top a.fr{color:#a09394; text-decoration:none;font-size:14px;margin-top:38px;}
+.index02 .top a.fr em{padding-right:5px;}
+.index02 .left{width:654px;}
+.index02 .left ul{width:100%;border-top:1px solid #ebebeb;}
+.index02 .left ul li{padding:30px 0;display:inline-block;width:100%;border-bottom:1px solid #ebebeb;height:109px;}
+.index02 .left ul li a{ text-decoration:none; cursor:pointer;}
+.index02 .left ul li div.fr{width:446px;padding-right:20px;}
+.index02 .left ul li div.fr h3{font-size:20px;color:#413e3e;}
+.index02 .left ul li div.fr h4{color:#989191;padding:10px 0;font-size:12px;}
+.index02 .left ul li div.fr p{font-size:13px;line-height:22px;color:#989191;height:66px; overflow:hidden;}
+.index02 .left ul li a:hover h3{color:#63065f}
+.index02 .left ul li a:hover p{color:#413e3e;}
+.index02 .right{width:505px;}
+.index02 .right .fled{width:505px; position:relative;}
+.index02 .right .flex-control-nav{top:295px; bottom:none;}
+.index02 .right .flex-control-nav a{width:30px;height:4px;background:#fff;}
+.index02 .right .flex-control-nav a.active{background:#63065f;}
+.index02 .right .flex-direction-nav a{width:20px;height:44px;margin:0;top:140px;opacity:1;filter:alpha(opacity=100)}
+.index02 .right .flex-direction-nav a.prev{background:url("/static/deskshow/images/leftbtn.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/leftbtn.png*/ no-repeat;left:25px;}
+.index02 .right .flex-direction-nav a.next{background:url("/static/deskshow/images/rightbtn.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/rightbtn.png*/ no-repeat;right:25px;}
+.index02 .right .fled .slides li{border-bottom:10px solid #63065f;display: none; overflow:hidden; }
+.index02 .right .fled .slides li img{height:320px;display:block;width:505px;}
+.index02 .right .fled .slides li .test{background:#ede9e4;padding:40px 20px; text-align:center;border-bottom:6px solid #d7d2cc;height:274px;}
+.index02 .right .fled .slides li .test h3{font-size:20px;line-height:28px;color:#484242; text-align:center;background:url("/static/deskshow/images/fled_bg.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/fled_bg.png*/ no-repeat left bottom;padding-bottom:20px;}
+.index02 .right .fled .slides li .test h3 a{ text-decoration:none;color:#484242; }
+.index02 .right .fled .slides li .test p{font-size:15px;line-height:22px;color:#9b9286;padding:35px 0 40px; text-align:left;}
+.index02 .right .fled .slides li .test p a{ text-decoration:none;color:#9b9286;}
+.index02 .right .fled .slides li .test a.btn{display:inline-block;width:160px;height:33px;border:1px solid #a24f4e; text-align:center;font-size:13px;line-height:33px; text-decoration:none;color:#63065f;margin:0 auto;}
+.index02 .right .fled .slides li .test a.btn:hover{background:#63065f;color:#fff;}
+.index02 .right .fled .slides li .test a.over{display:inline-block;width:160px;height:35px;text-align:center;font-size:16px;line-height:35px; text-decoration:none;color:#fff;margin:0 auto; background:#63065f;transition:all .3s ease}
+.index02 .right .fled .slides li .test a.over:hover{margin-top:-5px}
+.index03{background:#f7f7f7;padding-bottom:70px;}
+.index03 .tit{padding:40px 0; text-align:center;}
+.index03 .tit h4{font-size:20px;color:#5a5051; text-transform:uppercase;}
+.index03 .tit h3{font-size:20px;color:#a09394;}
+.index03 .content{width:100%; overflow:hidden;}
+.index03 .content ul{display:inline-block;width:1218px;}
+.index03 .content ul li{float:left;width:375px;height:400px; overflow:hidden;margin-right:31px; position:relative;}
+.index03 .content ul li .test{ position:absolute;left:0;right:0;bottom:0;background:url("/static/deskshow/images/in03_bg1.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/in03_bg1.png*/ repeat;padding:20px 25px }
+.index03 .content ul li .test h3{font-size:16px;color:#fff;padding-bottom:5px;}
+.index03 .content ul li .test h4{font-size:20px;color:#fff;}
+.index03 .content ul li .box{ position:absolute;left:0;right:0;top:0;bottom:0;background:url("/static/deskshow/images/in03_bg2.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/in03_bg2.png*/ repeat;display:none;padding:35px 25px;}
+.index03 .content ul li .box h4{font-size:23px;color:#fff;padding:25px 0;}
+.index03 .content ul li .box p{font-size:13px;line-height:23px;color:#fff;max-height:138px; overflow:hidden;}
+.index03 .content ul li .box .btn{ text-align:center;margin-top:50px;}
+.index03 .content ul li .box .btn a{display:inline-block;border:1px solid #fff;padding:10px 40px 10px 30px;font-size:14px;color:#fff; text-decoration:none;}
+.index03 .content ul li .box .btn a em{font-size:18px;padding-right:20px;}
+.index03 .content ul li .box .btn a:hover{background:#fff;color:#63065f}

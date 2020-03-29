@@ -1,0 +1,196 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td, img {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0
+}
+ol, ul {
+	list-style:none
+}
+input {
+	outline: none;
+	border:none;
+}
+html {
+	_overflow-y:scroll;
+}
+/*****！！页面通用css样式定义开始******/
+html, body {
+	min-width: 1200px;
+	font-family: "Microsoft YaHei";
+	/*_width:expression(// document.body.clientWidth < 1200 ? "1200px" : "auto");*/
+}
+/* body的css定义:这里定义页面上下左右边距，页面背景颜色，滚动条颜色样式 */
+body {
+	font-family: "微软雅黑";    /*文字字体定义 */
+	font-size: 14px;    /*文字大小定义 */
+	color: #333; /*文字颜色定义 */
+	min-width:1200px;
+	line-height:30px;
+}
+/* 网站超链接css通用设置 */
+a {
+	text-decoration: none;
+	color:#333
+} /* 链接无下划线,有为underline */
+a:hover {
+	text-decoration: none;
+} /* 鼠标在链接上 */
+.textover {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.fl, .left {
+	float:left;
+}
+.fr, .right {
+	float:right;
+}
+.hide {
+	display: none
+}
+
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	display:block
+}
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}/*清除浮动*/
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow: hidden;
+}/*清除浮动*/
+.clearfix {
+	display:inline-block
+}
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}
+
+/*表格样式定义 */ 
+checkbox {
+	border: 0px;
+}/*选择框样式定义 */
+ul, li {
+	list-style:none
+}
+/*public*/
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+/*解决方案*/
+.CONTWrapa {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
+/* 产品详情页面 */
+.yline{width:100%;height:1px;box-shadow: 0 4px 10px #aaa;margin:0px 0 10px 0;}
+.CONTWrapa{width:1200px; overflow: hidden;margin:40px auto;}
+.CONTWrapa .menuBox{width:240px; overflow: hidden; float: left;}
+.CONTWrapa .menuBox{width:20%; overflow: hidden; float: left;}
+.CONTWrapa .toulist{width:100%; overflow: hidden;border-top: 1px solid #eee;}
+.CONTWrapa .toulist>li{width:100%;overflow: hidden; border-bottom: 2px solid #dde0ec;background: #446181;padding:0 0;}
+.CONTWrapa .toulist>li>a{width:88%;overflow: hidden; display: block; line-height: 50px; font-size:16px; color:#fff;cursor: pointer;padding:0 6%;}
+.CONTWrapa .toulist li>.current{display:block;background: url("/static/deskshow/images/narrb.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/narrb.png*/ 94% center no-repeat;display:block;}
+.CONTWrapa .toulist li>.current.active{background: url("/static/deskshow/images/narrt.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/narrt.png*/ 94% center no-repeat;display:block;}
+.CONTWrapa .toulist li>.current{color:#fff;display:block;}
+.CONTWrapa .shilist{display: none;background:#dde0ec;}
+.CONTWrapa .shilist>li>a{width:88%;margin:0 auto;font-size: 1em; color:#666666;border-bottom: 1px dashed #fff;display: block;line-height: 40px;font-size:14px;}
+.CONTWrapa .shilist>li:last-child>a{border-bottom:0;}
+.CONTWrapa .shilist>li>a:hover{color:#446181}
+
+
+
+
+.CONTWrapa .chanCont{width:910px;overflow: hidden;float: right;}
+.CONTWrapa .chanCont .contchan{width:100%; height:auto;overflow: hidden;}
+.CONTWrapa .chanCont .contchan .cming{color:#446181;font-size:32px;margin-bottom:30px;}
+.CONTWrapa .chanCont .contchan .cinfo{width:100%;overflow: hidden;margin-bottom:40px;color:#999 !important;font-size: 16px !important;}
+.contchan .hezuo{width:170px;height:44px;background: #768faa;color:#fff;text-align: center;line-height: 44px;font-size: 1em;display: block;border-radius: 22px;margin:40px 0 90px 0;box-shadow: 0 5px 10px
+#ccc;}
+.contchan .hezuo:hover{background: #446181;}
+.cxiangbox{ width:100%; height:auto; margin:0 auto}
+.cxiangbox .titlea{ font-size:20px; color:#111; font-weight:bold; line-height:60px; border-bottom:1px solid #9a9a9a; margin-bottom:20px}
+.cxiangbox .conta{ font-size:16px !important; line-height:32px !important; color:#333; margin-bottom:30px}
+.cxiangbox .conta img{ max-width:100%; height:auto}
+
+
+.m_1 {
+}
+.m_1 > li {width:100%;overflow: hidden; border-bottom: 2px solid #dde0ec;background: #446181;padding:0 0;}
+.m_1 > li > a {width:88%;overflow: hidden; display: block; line-height: 50px; font-size:16px; color:#fff;cursor: pointer;padding:0 6%;background: url("narrb.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/narrb.png*/ 94% center no-repeat;}
+
+.m_1 > li:hover > a {width:88%;overflow: hidden; display: block; line-height: 50px; font-size:16px; color:#fff;cursor: pointer;padding:0 6%;background: url("narrb.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/narrb.png*/ 94% center no-repeat;}
+
+.m_1 > li > a.active{
+background: url("/static/deskshow/images/narrt.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/narrt.png*/ 94% center no-repeat;display:block;
+}
+
+.m_1 > li .menu_btn {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.m_1 > li .menu_btn_active {
+}
+.m_1 > li .menu_btn:hover {
+  background-color:#2b9ee4;
+}
+.m_2 {
+  display: none;background:#dde0ec;
+}
+
+
+
+
+.m_2 > li {
+
+}
+.m_2 > li:last-child {
+
+}
+.m_2 > li:first-child {
+
+}
+
+
+
+.m_2 > li a{
+ width:88%;margin:0 auto;color:#666666;border-bottom: 1px dashed #fff;display: block;line-height: 40px;font-size:14px;
+}
+
+.m_2 > li a:hover {
+color:#446181
+}
+
+.m_2 > li a.active{
+ display: block; width:260px; margin:0 auto; height:38px; line-height:38px; text-align:left; text-indent:50px; background:url("icon.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/icon.jpg*/ no-repeat 30px center; color:#ffc000;  font-size:14px; overflow:hidden; border-bottom:dotted 1px #fe4823; }
+
+.m_2 > li a span{ color:#666; font-family:宋体; font-style:italic; line-height:30px
+}
+
+

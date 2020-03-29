@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td, img {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0
+}
+ol, ul {
+	list-style:none
+}
+input {
+	outline: none;
+	border:none;
+}
+/* body的css定义:这里定义页面上下左右边距，页面背景颜色，滚动条颜色样式 */
+body {
+	font-family: "微软雅黑";    /*文字字体定义 */
+	font-size: 14px;    /*文字大小定义 */
+	color: #333; /*文字颜色定义 */
+	min-width:1200px;
+}
+/* 网站超链接css通用设置 */
+a {
+	text-decoration: none;
+	color:#333
+} /* 链接无下划线,有为underline */
+a:hover {
+	text-decoration: none;
+} /* 鼠标在链接上 */
+.textover {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.fl, .left {
+	float:left;
+}
+.fr, .right {
+	float:right;
+}
+.hide {
+	display: none
+}
+
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	display:block
+}
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}/*清除浮动*/
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow: hidden;
+}/*清除浮动*/
+.clearfix {
+	display:inline-block
+}
+.clearfix {
+	display:block
+}
+
+/*表格样式定义 */ 
+checkbox {
+	border: 0px;
+}/*选择框样式定义 */
+ul, li {
+	list-style:none
+}
+/*public*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+html,body {
+  height: 100%;
+}
+/*供应商申请*/
+.bgapply{width:100%; height: 100%; margin:0 auto;background-image:url("login.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/login/login.jpg*/;background-repeat:no-repeat;background-attachment:fixed;background-position:center ;}
+.center{width:1200px;margin:0 auto;}
+.n_login_gjy_title{}
+.n_login_gjy_title img{height: 80px; margin-top:40px; margin-bottom:60px;}
+.moreaa{ float:right;
+    width: 130px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+    margin: 61px 0 0 0;
+    transition: all 0.2s ease-out;}
+.moreaa:hover{ background:#fff; color:#0041b1}
+.bodynei{ width:650px; height:auto; margin:0 auto; background:url("dash.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/apply/dash.jpg*/ center top repeat-x #fff; padding:55px 25px 25px}
+.bodynei .title{ display:block; text-align:center; font-size:32px; line-height:45px; color:#333; font-weight:100}
+.bodynei .content{ margin-top:25px;}
+
+.titlea{ height:40px; background:#dfdfdf}
+.titlea p{ padding-left:30px; padding-right:30px; float:left; background:#1f5db0; line-height:40px; font-size:20px; color:#fff; }
+
+.contenta{ margin:20px auto;}
+tr, td{ line-height:40px; height:40px; font-size:14px; color:#333}
+
+.txta{ padding:0 10px; line-height:40px;}
+
+.more{ line-height:40px; color:#0386c1; font-size:14px;}
+.red{ color:#ff0000; font-weight:bold; margin-right:5px; line-height:40px; font-size:15px}
+
+.style4{ width:300px; height:30px; border:1px solid #e5e5e5; line-height:30px; color:#666}
+.gwd_text{ width:96%; height:30px; border:1px solid #e5e5e5; line-height:30px; color:#666}
+
+
+.sumbit {width:100%; height:70px; margin:40px auto 0;*text-align:center;}
+.sumbit ul {display:table;margin-left:auto;margin-right:auto;}
+.sumbit ul li{list-style:none;float:left;*float:none;*display:inline;*zoom:1;}
+.sumbita{padding:0 45px; margin:0 12px;
+	line-height:38px;
+	font-size:16px;
+	border-radius: 12px;
+	background:#0072c0; color:#fff; border:none; font-family:微软雅黑;}
+.sumbitb{padding:0 45px; margin:0 12px;
+	line-height:38px;
+	font-size:16px;
+	border-radius: 12px;
+	background:#43b75c; color:#fff; border:none; font-family:微软雅黑;
+	}

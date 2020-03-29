@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, th, td, img {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0
+}
+ol, ul {
+	list-style:none
+}
+input {
+	outline: none;
+	border:none;
+}
+/* body的css定义:这里定义页面上下左右边距，页面背景颜色，滚动条颜色样式 */
+body {
+	font-family: "微软雅黑";    /*文字字体定义 */
+	font-size: 14px;    /*文字大小定义 */
+	color: #333; /*文字颜色定义 */
+	min-width:1200px;
+	line-height:30px;
+}
+/* 网站超链接css通用设置 */
+a {
+	text-decoration: none;
+	color:#333
+} /* 链接无下划线,有为underline */
+a:hover {
+	text-decoration: none;
+} /* 鼠标在链接上 */
+.textover {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.fl, .left {
+	float:left;
+}
+.fr, .right {
+	float:right;
+}
+.hide {
+	display: none
+}
+
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	display:block
+}
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}/*清除浮动*/
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow: hidden;
+}/*清除浮动*/
+.clearfix {
+	display:inline-block
+}
+.clearfix {
+	display:block
+}
+
+/*表格样式定义 */ 
+checkbox {
+	border: 0px;
+}/*选择框样式定义 */
+ul, li {
+	list-style:none
+}
+/*public*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+html,body {
+  height: 100%;
+}
+/*登录界面*/
+.n_login_bg {width: 100%; height:100%;background: url("login.jpg")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/login/login.jpg*/ bottom center no-repeat fixed;background-size: cover;}
+
+	
+.center,.content{
+	width:1200px;
+	margin:0 auto;
+}
+.n_login_gjy_title{
+    color: #fff;
+    font-size:36px; margin-bottom:40px
+}
+.n_login_gjy_title span{
+    line-height: 91px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+.n_login_gjy_title img{
+    height: 80px; margin-top:40px; margin-bottom:60px;
+}
+
+.n_login_content_box{
+    width:515px;
+    height: 350px;
+    background:rgba(79,156,214,0.2);
+    margin: 0 auto;
+    color: #fff;
+}
+.nlc_title {
+    font-size: 26px;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+.n_login_form {
+    width: 420px;
+    margin: 0 auto;
+}
+
+form {
+    display: block;
+}
+.gjl_error{
+    color: red;
+    font-size: 12px;
+}
+.nlf_section {
+    height: 40px;
+    border: 1px solid #b6b6b6;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;}
+
+.nlf_icon {
+    display: block;
+    width: 11%;
+    height: 29px;
+    margin-top: 4px;
+    border-right: 1px solid #b6b6b6;
+}
+
+.nlf_icon1,.nlf_icon2,.nlf_icon3,.nlf_icon4,.nlf_icon5,.nlf_icon6,.nlf_icon7{
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    background: url("misc4.png")/*tpa=http://www.kunyue2019.com/Public/Home/default/images/login/misc4.png*/;
+}
+.nlf_icon1{
+   background-position: -342px -4px;
+}
+.nlf_icon2{
+    background-position: -379px -4px;
+}
+.nlf_icon3{
+    background-position: -415px -4px;
+}
+.nlf_icon4{
+    background-position: -345px -55px;
+}
+.nlf_icon5 {
+    background-position: -390px -98px;
+}
+.nlf_icon6{
+    background-position: -345px -98px;
+}
+.nlf_icon7{
+    background-position: -389px -55px;
+}
+.nlf_input {
+    height: 36px;
+    width: 86%;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.nlf_btn{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #34a4fb;
+    font-size:20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width:100%;
+    border:none;
+}
+
+.moreaa{ float:right;
+    width: 130px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+    margin: 61px 0 0 0;
+    transition: all 0.2s ease-out;}
+.moreaa:hover{ background:#fff; color:#0041b1}
